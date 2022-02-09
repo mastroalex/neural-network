@@ -151,24 +151,31 @@ legend({'sdgm','adam','rmsprop',string(mean(FM_test_sgdm)),string(mean(FM_test_a
 
 epoc=[5 10 20 30 40 50 60];
 for i=1:length(epoc)
-   disp(strcat('epoche:'," ",string(epoc(i))));
+   
     options = trainingOptions('sgdm', ...
-    'MaxEpochs',epoc(i), ...  
+    'MaxEpochs',epoch(i), ...  
     'MiniBatchSize',8, ...
     'Plots','training-progress');
-[net_epoc, info]= trainNetwork(pximds,lgraph,options);
-accuracy_epoc(i)=info.TrainingAccuracy(end);
-loss_epoc(i)=info.TrainingLoss(end);
+[net, info]= trainNetwork(pximds,lgraph,options);
+
+    [net_adam, info]=trainNetwork(pximds,lgraph,options_adam);
+accuracy_adam=info.TrainingAccuracy(end);
+loss_adam=info.TrainingLoss(end);
 
 for l = 1:length(f_test)
+    l
 testImage=imread([strcat(dataPath,'/FRAME_TEST_SEG/'),f_test(l).name]);
 C_test = semanticseg(testImage,net);
 D=C_test=='B';
 GTImage=imread([strcat(dataPath,'/GT_TEST/'),gt_train(l).name]);
 [TP,FP,FN,CR,CM,FM_test(l)]=evaluation_segmentation(bwareafilt(D,1),GTImage);
+% imwrite(D,['FRAME_TEST_SEG_NEW\',f_test(l).name(1:end-5),'_seg.tiff']);
+imshowpair(testImage,bwareafilt(D,1),'montage');
+pause(0.5); drawnow;
 clear C_test D testImage;
 end
-FM_test_epoc(i,:)=FM_test;
+    
+    
 end
 
 

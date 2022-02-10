@@ -20,6 +20,40 @@
 \usepackage{textcomp}
 \usepackage{subcaption}
 \definecolor{myred}{rgb}{0.545, 0.172, 0.031}
+\usepackage{listings}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codestring}{rgb}{0.623, 0.176, 0.588}
+\definecolor{backcolour}{rgb}{0.96,0.96,0.96}
+\definecolor{bbcolour}{rgb}{0.01,0.03,0.35}
+\definecolor{indexcolour}{rgb}{0,0.4,0.4}
+\definecolor{myOrange}{rgb}{0.933, 0.313, 0.066}
+\definecolor{myBlue}{rgb}{0, 0.298, 0.8}
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	classoffset=1,
+	keywordstyle=\color{bbcolour},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codestring},
+	basicstyle=\ttfamily\small,
+	breakatwhitespace=false,  
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=false,                 
+	numbers=left,                    
+	numbersep=3pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+\lstset{texcl=false, mathescape=true,style=mystyle}
+\lstset{emph={%  
+		i, j,X,n,Y,polarpattern,subfigure,pattern%
+	},emphstyle={\color{bbcolour}}%
+}%
+
 %\usepackage{cleveref}
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
@@ -43,6 +77,9 @@ Università degli Studi di Roma Tor Vergata% Your institution for the title page
 \providecommand*{\input@path}{}
 \edef\input@path{{figures/}{}\input@path}% prepend
 \makeatother
+
+
+
 %----------------------------------------------------------------------------------------
 %	PRESENTATION SLIDES
 %----------------------------------------------------------------------------------------
@@ -67,7 +104,7 @@ Università degli Studi di Roma Tor Vergata% Your institution for the title page
 	\item Edge-based
 	\item Region-based
 	\item Model-based
-	\item \textbf{Supervisioned methods}
+	\item \textbf{Supervised methods}
 \end{itemize}
 \vspace{0.1\linewidth}
 
@@ -90,31 +127,198 @@ $}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Transfer learning}
-	
+\begin{frame}[fragile]{Transfer learning}
+
+	\begin{figure}
+\begin{minipage}{\linewidth}
+	\tiny{\def\svgwidth{\linewidth}
+		\input{CNN.pdf_tex}}
+\end{minipage}
+\vspace{0.03\linewidth}
+
+\begin{minipage}{0.15\linewidth}
+	\centering
+ \texttt{\{B\}==1}\\
+ \texttt{\{N\}==0}
+
+\end{minipage}\hfill
+\begin{minipage}{0.4\linewidth}
+	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
+	pxds=pixelLabelDatastore(...
+	strcat(newPath,'dataset\GT_TRAIN'),...
+	["N","B"],[0 1]); 
+		\end{lstlisting}}
+\end{minipage}\hfill
+\begin{minipage}{0.4\linewidth}
+	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
+	pxLayer = pixelClassificationLayer(...
+	'Name','labels','Classes',tbl.Name,...
+	'ClassWeights',classWeights);
+	\end{lstlisting}}
+\end{minipage}\hfill
+	\end{figure}
+
 	
 \end{frame}
 
 \begin{frame}{Training dataset}
 	
-	
+
+\begin{figure}
+	\begin{minipage}{0.6\linewidth}
+		\tiny{\def\svgwidth{\linewidth}
+			\input{datastore.pdf_tex}}
+	\end{minipage}\hspace{0.05\linewidth}
+	\begin{minipage}{0.3\linewidth}
+	\tiny{\def\svgwidth{\linewidth}
+		\input{pximds.pdf_tex}}
+\end{minipage}
+\end{figure}
+\begin{figure}
+	\begin{minipage}{\linewidth}
+	\tiny{\def\svgwidth{\linewidth}
+		\input{diagram.pdf_tex}}
+\end{minipage}
+\end{figure}
 \end{frame}
 
-\begin{frame}{Classification layer}
+\begin{frame}[fragile]{Classification layer and training}
+\begin{figure}
+	\begin{minipage}{0.7\linewidth}
+	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
+	lgraph = deeplabv3plusLayers(imageSize,numClasses,"resnet50"); 
+	% balance predominance of 0
+	tbl = countEachLabel(pximds);
+	totalNumberOfPixels = sum(tbl.PixelCount);
+	frequency = tbl.PixelCount / totalNumberOfPixels;
+	classWeights = 1./frequency;
+	pxLayer = pixelClassificationLayer('Name','labels','Classes',...
+	tbl.Name,'ClassWeights',classWeights);
+	lgraph = replaceLayer(lgraph,"classification",pxLayer);
+	options = trainingOptions('sgdm','MaxEpochs',30, ...  
+	'MiniBatchSize',8, 'Plots','training-progress');
+	[net, info]= trainNetwork(pximds,lgraph,options);
+\end{lstlisting}}
+\centering
+	\fontsize{3}{4}\selectfont{\def\svgwidth{0.8\linewidth}
+	\input{accuracy.pdf_tex}}\vspace{2 mm}
+	\fontsize{3}{4}\selectfont{\def\svgwidth{0.8\linewidth}
+	\input{loss.pdf_tex}}
+	\end{minipage}\hfill
+\begin{minipage}{0.3\linewidth}
+\includegraphics[width=0.95\linewidth]{lastlayers.png}
+\end{minipage}
 	
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]{Application}
+	\begin{figure}
+		\begin{minipage}{0.69\linewidth}
+	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
+for l = 1:length(f_test)
+	testImage=imread([strcat(dataPath,'/FRAME_TEST_SEG/'),f_test(l).name]);
+	C_test = semanticseg(testImage,net);
+	D=C_test=='B';
+	GTImage=imread([strcat(dataPath,'/GT_TEST/'),gt_train(l).name]);
+	[TP,FP,FN,CR,CM,FM_test(l)]=evaluation_segmentation(...
+	bwareafilt(D,1),GTImage);
+	imshowpair(testImage,bwareafilt(D,1),'montage');
+	pause(0.5); drawnow;
+	clear C_test D testImage;
+end
+\end{lstlisting}}
+		\end{minipage}\hfill
+	\begin{minipage}{0.3\linewidth}
+			\fontsize{3}{4}\selectfont{\def\svgwidth{0.8\linewidth}
+			\input{FM_first.pdf_tex}}
+	\end{minipage}
+\centering
+\tiny{n. 25:}\\
+\begin{minipage}{0.25\linewidth}
+	\includegraphics[width=\linewidth]{n25.png}
+\end{minipage}\hfill
+\begin{minipage}{0.25\linewidth}
+	\includegraphics[width=\linewidth]{n25_GT.png}
+\end{minipage}\hfill
+\begin{minipage}{0.25\linewidth}
+	\includegraphics[width=\linewidth]{n25_seg.png}
+\end{minipage}\hfill
+\begin{minipage}{0.25\linewidth}
+	\includegraphics[width=\linewidth]{GT_vs_SEG.png}
+\end{minipage}\hfill
+	\end{figure}
 \end{frame}
 
 \begin{frame}{Solver}
-	
+\begin{figure}
+	\centering
+	\begin{minipage}{\linewidth}
+		\centering
+		\fontsize{3}{4}\selectfont{\def\svgwidth{0.9\linewidth}
+			\input{solver.pdf_tex}}
+	\end{minipage}
+\end{figure}	
 	
 \end{frame}
 
 \begin{frame}{Training options}
-	
-	
+\begin{figure}
+	\centering
+	\begin{minipage}{0.3\linewidth}
+		\centering
+		\footnotesize{numbers of epochs}\\\vspace{2 mm}
+		\fontsize{3}{4}\selectfont{\def\svgwidth{0.9\linewidth}
+			\input{epoche.pdf_tex}}\vspace{1 mm}
+			\fontsize{3}{4}\selectfont{\def\svgwidth{0.9\linewidth}
+			\input{epoche2.pdf_tex}}
+	\end{minipage}
+	\begin{minipage}{0.3\linewidth}
+	\centering
+	\footnotesize{mini batch size}\\\vspace{2 mm}
+	\fontsize{3}{4}\selectfont{\def\svgwidth{0.9\linewidth}
+		\input{batch.pdf_tex}}\vspace{1 mm}
+	\fontsize{3}{4}\selectfont{\def\svgwidth{0.9\linewidth}
+		\input{batch2.pdf_tex}}
+\end{minipage}
+	\begin{minipage}{0.3\linewidth}
+	\centering
+	\footnotesize{numbers of epochs}\\\vspace{2 mm}
+	\fontsize{3}{4}\selectfont{\def\svgwidth{0.9\linewidth}
+		\input{lr.pdf_tex}}\vspace{1 mm}
+	\fontsize{3}{4}\selectfont{\def\svgwidth{0.9\linewidth}
+		\input{lr2.pdf_tex}}
+\end{minipage}
+\end{figure}	
 \end{frame}
 
-
+\begin{frame}{Augmenter}
+	\begin{figure}
+		\centering
+		\begin{minipage}{0.5\linewidth}
+			\centering
+		\tiny{only rotation\\ \texttt{mean}: 0.4659}
+		\end{minipage}\hfill
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\tiny{only reflection\\ \texttt{mean}: 0.7989}
+		\end{minipage}\hfill
+		\begin{minipage}{0.5\linewidth}
+			\vspace{5 mm}
+			\centering
+			\tiny{only traslation}
+				\fontsize{3}{4}\selectfont{\def\svgwidth{0.9\linewidth}
+				\input{contour1.pdf_tex}}
+		\end{minipage}\hfill
+		\begin{minipage}{0.5\linewidth}
+		\centering
+		\vspace{5 mm}
+		\tiny{all}\\
+		\fontsize{3}{4}\selectfont{\def\svgwidth{0.9\linewidth}
+			\input{contour2.pdf_tex}}
+	\end{minipage}
+	\end{figure}	
+\end{frame}
 
 
 \end{document}

@@ -1,0 +1,95 @@
+%% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'diagram.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{773.47492074bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.2867322)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{diagram.pdf}}%
+    \put(0.21302151,0.19923088){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{imds}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{diagram.pdf}}%
+    \put(0.2146764,0.12943499){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{pxds}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{diagram.pdf}}%
+    \put(0.02524523,0.20088579){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}FRAME TRAIN\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{diagram.pdf}}%
+    \put(0.03952467,0.13039203){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}GT TRAIN\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{diagram.pdf}}%
+    \put(0.35829973,0.01942545){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ResNet50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{diagram.pdf}}%
+    \put(0.35767994,0.09619198){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{imageSize}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{diagram.pdf}}%
+    \put(0.37100768,0.16598788){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{pximds}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{diagram.pdf}}%
+    \put(0.19504285,0.05348683){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{numClasses}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{diagram.pdf}}%
+    \put(0.35856463,0.23384465){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Augmenter\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{diagram.pdf}}%
+    \put(0.50728971,0.16516044){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{lgraph}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{diagram.pdf}}%
+    \put(0.61593709,0.08768685){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Options\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{diagram.pdf}}%
+    \put(0.61568503,0.16446259){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Training\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{diagram.pdf}}%
+    \put(0.74732355,0.1632194){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}net\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{diagram.pdf}}%
+    \put(0.73866334,0.09437161){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}IMAGE\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{diagram.pdf}}%
+    \put(0.88735329,0.2145985){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Segmentation\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{diagram.pdf}}%
+    \put(0.89202459,0.11366399){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Metrics\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{diagram.pdf}}%
+    \put(0.89255593,0.18203911){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Foreground\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{diagram.pdf}}%
+    \put(0.8918571,0.15063059){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Background\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{diagram.pdf}}%
+    \put(0.73914811,0.07851482){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\& GT\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

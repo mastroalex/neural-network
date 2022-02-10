@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Livello_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 1020.6 396.3"
+   style="enable-background:new 0 0 1020.6 396.3;"
+   xml:space="preserve"
+   sodipodi:docname="diagram.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs267" /><sodipodi:namedview
+   id="namedview265"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="1.6572599"
+   inkscape:cx="347.56166"
+   inkscape:cy="269.72233"
+   inkscape:window-width="1308"
+   inkscape:window-height="1274"
+   inkscape:window-x="1962"
+   inkscape:window-y="26"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Livello_1" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:none;stroke:#000000;stroke-width:0.7198;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#000000;stroke-width:0.7198;}
+	.st3{font-family:'CourierNewPSMT';}
+	.st4{font-size:8.6377px;}
+	.st5{fill:#D4E4D2;}
+	.st6{fill:none;stroke:#82B366;stroke-width:0.7198;stroke-miterlimit:10;}
+	.st7{font-family:'ArialMT';}
+	.st8{fill:#F2CECC;}
+	.st9{fill:none;stroke:#B85450;stroke-width:0.7198;stroke-miterlimit:10;}
+	.st10{opacity:0.2471;enable-background:new    ;}
+	.st11{clip-path:url(#SVGID_2_);fill:none;stroke:#000000;stroke-width:0.7198;stroke-miterlimit:10;}
+	.st12{clip-path:url(#SVGID_4_);fill:none;stroke:#000000;stroke-width:0.7198;stroke-miterlimit:10;}
+	.st13{font-family:'Arial-BoldMT';}
+	.st14{fill:none;stroke:#B85450;stroke-width:0.7198;}
+</style>
+<polyline
+   class="st0"
+   points="252.9,133.3 296.1,133.3 296.1,169.3 327.5,169.3 "
+   id="polyline4" />
+<polygon
+   points="331.2,169.3 326.2,171.8 327.5,169.3 326.2,166.7 "
+   id="polygon6" />
+<polygon
+   class="st0"
+   points="331.2,169.3 326.2,171.8 327.5,169.3 326.2,166.7 "
+   id="polygon8" />
+<polyline
+   class="st0"
+   points="209.7,111.7 209.7,46.9 375.2,46.9 375.2,71.1 "
+   id="polyline10" />
+<polygon
+   points="375.2,74.9 372.7,69.8 375.2,71.1 377.8,69.8 "
+   id="polygon12" />
+<polygon
+   class="st0"
+   points="375.2,74.9 372.7,69.8 375.2,71.1 377.8,69.8 "
+   id="polygon14" />
+<rect
+   x="166.5"
+   y="111.7"
+   class="st1"
+   width="86.4"
+   height="43.2"
+   id="rect16" />
+<rect
+   x="166.5"
+   y="111.7"
+   class="st2"
+   width="86.4"
+   height="43.2"
+   id="rect18" />
+<text
+   class="st3 st4"
+   id="text20"
+   x="187.85852"
+   y="136.7802">\texttt{imds}</text>
+<polyline
+   class="st0"
+   points="252.9,205.3 296.1,205.3 296.1,169.3 327.5,169.3 "
+   id="polyline22" />
+<polygon
+   points="331.2,169.3 326.2,171.8 327.5,169.3 326.2,166.7 "
+   id="polygon24" />
+<polygon
+   class="st0"
+   points="331.2,169.3 326.2,171.8 327.5,169.3 326.2,166.7 "
+   id="polygon26" />
+<rect
+   x="166.5"
+   y="183.7"
+   class="st1"
+   width="86.4"
+   height="43.2"
+   id="rect28" />
+<rect
+   x="166.5"
+   y="183.7"
+   class="st2"
+   width="86.4"
+   height="43.2"
+   id="rect30" />
+<text
+   class="st3 st4"
+   id="text32"
+   x="189.5652"
+   y="208.7607">\texttt{pxds}</text>
+<line
+   class="st0"
+   x1="123.3"
+   y1="133.3"
+   x2="161.9"
+   y2="133.3"
+   id="line34" />
+<polygon
+   points="165.7,133.3 160.6,135.8 161.9,133.3 160.6,130.8 "
+   id="polygon36" />
+<polygon
+   class="st0"
+   points="165.7,133.3 160.6,135.8 161.9,133.3 160.6,130.8 "
+   id="polygon38" />
+<polygon
+   class="st5"
+   points="130.5,111.7 116.1,154.9 44.1,154.9 58.5,111.7 "
+   id="polygon40"
+   transform="matrix(1.8680299,0,0,1,-113.27789,0)" />
+<polygon
+   class="st6"
+   points="130.5,111.7 116.1,154.9 44.1,154.9 58.5,111.7 "
+   id="polygon42"
+   transform="matrix(1.8680299,0,0,1,-113.27789,0)" />
+<text
+   transform="scale(1.3667589,0.73165795)"
+   class="st7 st4"
+   id="text44"
+   x="-4.2400584"
+   y="184.6129"
+   style="stroke-width:1.36676">FRAME TRAIN</text>
+<line
+   class="st0"
+   x1="116.1"
+   y1="205.3"
+   x2="161.9"
+   y2="205.3"
+   id="line46" />
+<polygon
+   points="165.7,205.3 160.6,207.8 161.9,205.3 160.6,202.7 "
+   id="polygon48" />
+<polygon
+   class="st0"
+   points="165.7,205.3 160.6,207.8 161.9,205.3 160.6,202.7 "
+   id="polygon50" />
+<polyline
+   class="st0"
+   points="80.1,226.8 80.1,284.4 161.9,284.4 "
+   id="polyline52" />
+<polygon
+   points="165.7,284.4 160.6,287 161.9,284.4 160.6,281.9 "
+   id="polygon54" />
+<polygon
+   class="st0"
+   points="165.7,284.4 160.6,287 161.9,284.4 160.6,281.9 "
+   id="polygon56" />
+<polygon
+   class="st5"
+   points="123.3,183.7 108.9,226.8 36.9,226.8 51.3,183.7 "
+   id="polygon58"
+   transform="matrix(1.745523,0,0,1,-92.850045,0)" />
+<polygon
+   class="st6"
+   points="123.3,183.7 108.9,226.8 36.9,226.8 51.3,183.7 "
+   id="polygon60"
+   transform="matrix(1.745523,0,0,1,-92.850045,0)" />
+<text
+   transform="scale(1.3211824,0.75689777)"
+   class="st7 st4"
+   id="text62"
+   x="6.7600427"
+   y="274.50696"
+   style="stroke-width:1.32119">GT TRAIN</text>
+<line
+   class="st0"
+   x1="375.2"
+   y1="298.8"
+   x2="375.2"
+   y2="267.4"
+   id="line64" />
+<polygon
+   points="375.2,263.6 377.8,268.7 375.2,267.4 372.7,268.7 "
+   id="polygon66" />
+<polygon
+   class="st0"
+   points="375.2,263.6 377.8,268.7 375.2,267.4 372.7,268.7 "
+   id="polygon68" />
+<polygon
+   class="st8"
+   points="418.4,298.8 404,342 332,342 346.4,298.8 "
+   id="polygon70"
+   transform="matrix(1.5988683,0,0,0.99485826,-228.53545,1.6474123)" />
+<polygon
+   class="st9"
+   points="418.4,298.8 404,342 332,342 346.4,298.8 "
+   id="polygon72"
+   transform="matrix(1.5988683,0,0,0.99485826,-228.53545,1.6474123)" />
+<text
+   transform="scale(1.267727,0.78881336)"
+   class="st3 st4"
+   id="text74"
+   x="266.3696"
+   y="408.47879"
+   style="stroke-width:1.26121">ResNet50</text>
+<line
+   class="st0"
+   x1="375.2"
+   y1="219.7"
+   x2="375.2"
+   y2="195.4"
+   id="line76" />
+<polygon
+   points="375.2,191.7 377.8,196.7 375.2,195.4 372.7,196.7 "
+   id="polygon78" />
+<polygon
+   class="st0"
+   points="375.2,191.7 377.8,196.7 375.2,195.4 372.7,196.7 "
+   id="polygon80" />
+<polyline
+   class="st0"
+   points="418.4,241.2 497.6,241.2 497.6,195.4 "
+   id="polyline82" />
+<polygon
+   points="497.6,191.7 500.1,196.7 497.6,195.4 495.1,196.7 "
+   id="polygon84" />
+<polygon
+   class="st0"
+   points="497.6,191.7 500.1,196.7 497.6,195.4 495.1,196.7 "
+   id="polygon86" />
+<rect
+   x="332"
+   y="219.7"
+   class="st1"
+   width="86.4"
+   height="43.2"
+   id="rect88" />
+<rect
+   x="332"
+   y="219.7"
+   class="st2"
+   width="86.4"
+   height="43.2"
+   id="rect90" />
+<text
+   class="st3 st4"
+   id="text92"
+   x="337.04474"
+   y="243.0442">\texttt{imageSize}</text>
+<polyline
+   class="st0"
+   points="418.4,169.3 447.2,169.3 471.4,169.3 "
+   id="polyline94" />
+<polygon
+   points="475.2,169.3 470.2,171.8 471.4,169.3 470.2,166.7 "
+   id="polygon96" />
+<polygon
+   class="st0"
+   points="475.2,169.3 470.2,171.8 471.4,169.3 470.2,166.7 "
+   id="polygon98" />
+<polyline
+   class="st0"
+   points="418.4,158.5 418.4,169.3 447.2,169.3 447.2,118.9 627.2,118.9 627.2,143.1 "
+   id="polyline100" />
+<polygon
+   points="627.2,146.9 624.7,141.8 627.2,143.1 629.7,141.8 "
+   id="polygon102" />
+<polygon
+   class="st0"
+   points="627.2,146.9 624.7,141.8 627.2,143.1 629.7,141.8 "
+   id="polygon104" />
+<rect
+   x="332"
+   y="147.7"
+   class="st1"
+   width="86.4"
+   height="43.2"
+   id="rect106" />
+<rect
+   x="332"
+   y="147.7"
+   class="st2"
+   width="86.4"
+   height="43.2"
+   id="rect108" />
+<text
+   class="st3 st4"
+   id="text110"
+   x="350.78964"
+   y="171.06371">\texttt{pximds}</text>
+<line
+   class="st0"
+   x1="209.7"
+   y1="262.8"
+   x2="209.7"
+   y2="231.4"
+   id="line112" />
+<polygon
+   points="209.7,227.7 212.2,232.7 209.7,231.4 207.2,232.7 "
+   id="polygon114" />
+<polygon
+   class="st0"
+   points="209.7,227.7 212.2,232.7 209.7,231.4 207.2,232.7 "
+   id="polygon116" />
+<polyline
+   class="st0"
+   points="252.9,284.4 519.2,284.4 519.2,195.4 "
+   id="polyline118" />
+<polygon
+   points="519.2,191.7 521.7,196.7 519.2,195.4 516.7,196.7 "
+   id="polygon120" />
+<polygon
+   class="st0"
+   points="519.2,191.7 521.7,196.7 519.2,195.4 516.7,196.7 "
+   id="polygon122" />
+<rect
+   x="166.5"
+   y="262.8"
+   class="st1"
+   width="86.4"
+   height="43.2"
+   id="rect124" />
+<rect
+   x="166.5"
+   y="262.8"
+   class="st2"
+   width="86.4"
+   height="43.2"
+   id="rect126" />
+<text
+   class="st3 st4"
+   id="text128"
+   x="169.31712"
+   y="287.08603">\texttt{numClasses}</text>
+<line
+   class="st0"
+   x1="375.2"
+   y1="118.9"
+   x2="375.2"
+   y2="143.1"
+   id="line130" />
+<polygon
+   points="375.2,146.9 372.7,141.8 375.2,143.1 377.8,141.8 "
+   id="polygon132" />
+<polygon
+   class="st0"
+   points="375.2,146.9 372.7,141.8 375.2,143.1 377.8,141.8 "
+   id="polygon134" />
+<rect
+   x="332"
+   y="75.7"
+   class="st1"
+   width="86.4"
+   height="43.2"
+   id="rect136" />
+<rect
+   x="332"
+   y="75.7"
+   class="st2"
+   width="86.4"
+   height="43.2"
+   id="rect138" />
+<text
+   class="st7 st4"
+   id="text140"
+   x="337.95712"
+   y="101.08302">Augmenter</text>
+<g
+   class="st10"
+   id="g152">
+	<g
+   id="g150">
+		<defs
+   id="defs143">
+			<rect
+   id="SVGID_1_"
+   x="560"
+   y="167.8"
+   width="24.7"
+   height="7.4" />
+		</defs>
+		<clipPath
+   id="SVGID_2_">
+			<use
+   xlink:href="#SVGID_1_"
+   style="overflow:visible;"
+   id="use145" />
+		</clipPath>
+		<line
+   class="st11"
+   x1="563.8"
+   y1="171.4"
+   x2="580.8"
+   y2="171.4"
+   clip-path="url(#SVGID_2_)"
+   id="line148" />
+	</g>
+</g>
+<line
+   class="st0"
+   x1="562.4"
+   y1="169.3"
+   x2="579.4"
+   y2="169.3"
+   id="line154" />
+<polygon
+   points="583.2,169.3 578.1,171.8 579.4,169.3 578.1,166.7 "
+   id="polygon156" />
+<polygon
+   class="st0"
+   points="583.2,169.3 578.1,171.8 579.4,169.3 578.1,166.7 "
+   id="polygon158" />
+<rect
+   x="476"
+   y="147.7"
+   class="st1"
+   width="86.4"
+   height="43.2"
+   id="rect160" />
+<rect
+   x="476"
+   y="147.7"
+   class="st2"
+   width="86.4"
+   height="43.2"
+   id="rect162" />
+<text
+   class="st3 st4"
+   id="text164"
+   x="491.33728"
+   y="171.91704">\texttt{lgraph}</text>
+<g
+   class="st10"
+   id="g176">
+	<g
+   id="g174">
+		<defs
+   id="defs167">
+			<rect
+   id="SVGID_3_"
+   x="624.8"
+   y="193.7"
+   width="7.4"
+   height="39.1" />
+		</defs>
+		<clipPath
+   id="SVGID_4_">
+			<use
+   xlink:href="#SVGID_3_"
+   style="overflow:visible;"
+   id="use169" />
+		</clipPath>
+		<line
+   class="st12"
+   x1="628.6"
+   y1="229"
+   x2="628.6"
+   y2="197.6"
+   clip-path="url(#SVGID_4_)"
+   id="line172" />
+	</g>
+</g>
+<line
+   class="st0"
+   x1="627.2"
+   y1="226.8"
+   x2="627.2"
+   y2="195.4"
+   id="line178" />
+<polygon
+   points="627.2,191.7 629.7,196.7 627.2,195.4 624.7,196.7 "
+   id="polygon180" />
+<polygon
+   class="st0"
+   points="627.2,191.7 629.7,196.7 627.2,195.4 624.7,196.7 "
+   id="polygon182" />
+<polygon
+   class="st1"
+   points="584,270 598.4,226.8 670.4,226.8 656,270 "
+   id="polygon184" />
+<polygon
+   class="st0"
+   points="584,270 598.4,226.8 670.4,226.8 656,270 "
+   id="polygon186" />
+<text
+   class="st7 st4"
+   id="text188"
+   x="603.38531"
+   y="251.81555">Options</text>
+
+<path
+   class="st2"
+   d="M590.5,147.7h73.4c0.4,0,0.8,0,1.3,0.1c0.4,0.1,0.8,0.2,1.2,0.4c0.4,0.2,0.8,0.4,1.1,0.6s0.7,0.5,1,0.8  s0.6,0.6,0.8,1c0.2,0.4,0.4,0.7,0.6,1.1c0.2,0.4,0.3,0.8,0.4,1.2c0.1,0.4,0.1,0.8,0.1,1.3v30.2c0,0.4,0,0.8-0.1,1.3  c-0.1,0.4-0.2,0.8-0.4,1.2c-0.2,0.4-0.4,0.8-0.6,1.1c-0.2,0.4-0.5,0.7-0.8,1s-0.6,0.6-1,0.8s-0.7,0.4-1.1,0.6  c-0.4,0.2-0.8,0.3-1.2,0.4c-0.4,0.1-0.8,0.1-1.3,0.1h-73.4c-0.4,0-0.8,0-1.3-0.1c-0.4-0.1-0.8-0.2-1.2-0.4c-0.4-0.2-0.8-0.4-1.1-0.6  s-0.7-0.5-1-0.8s-0.6-0.6-0.8-1c-0.2-0.4-0.4-0.7-0.6-1.1c-0.2-0.4-0.3-0.8-0.4-1.2c-0.1-0.4-0.1-0.8-0.1-1.3v-30.2  c0-0.4,0-0.8,0.1-1.3c0.1-0.4,0.2-0.8,0.4-1.2c0.2-0.4,0.4-0.8,0.6-1.1c0.2-0.4,0.5-0.7,0.8-1s0.6-0.6,1-0.8s0.7-0.4,1.1-0.6  c0.4-0.2,0.8-0.3,1.2-0.4C589.6,147.7,590,147.7,590.5,147.7z"
+   id="path192" />
+
+<text
+   class="st13 st4"
+   id="text196"
+   x="603.12537"
+   y="172.63673">Training</text>
+<line
+   class="st0"
+   x1="672.1"
+   y1="169.6"
+   x2="703.5"
+   y2="169.6"
+   id="line198" />
+<polygon
+   points="707.3,169.6 702.3,172.1 703.5,169.6 702.3,167 "
+   id="polygon200" />
+<polygon
+   class="st0"
+   points="707.3,169.6 702.3,172.1 703.5,169.6 702.3,167 "
+   id="polygon202" />
+<polyline
+   class="st0"
+   points="794.5,169.6 844.9,169.6 844.9,151.6 872.7,151.6 "
+   id="polyline204" />
+<polygon
+   points="876.5,151.6 871.4,154.1 872.7,151.6 871.4,149 "
+   id="polygon206" />
+<polygon
+   class="st0"
+   points="876.5,151.6 871.4,154.1 872.7,151.6 871.4,149 "
+   id="polygon208" />
+<polyline
+   class="st0"
+   points="794.5,169.6 844.9,169.6 844.9,184 872.7,184 "
+   id="polyline210" />
+<polygon
+   points="876.5,184 871.4,186.5 872.7,184 871.4,181.4 "
+   id="polygon212" />
+<polygon
+   class="st0"
+   points="876.5,184 871.4,186.5 872.7,184 871.4,181.4 "
+   id="polygon214" />
+<rect
+   x="708.1"
+   y="148"
+   class="st8"
+   width="86.4"
+   height="43.2"
+   id="rect216" />
+<rect
+   x="708.1"
+   y="148"
+   class="st14"
+   width="86.4"
+   height="43.2"
+   id="rect218" />
+<text
+   class="st3 st4"
+   id="text220"
+   x="738.88416"
+   y="173.91884">net</text>
+<line
+   class="st0"
+   x1="751.3"
+   y1="227.1"
+   x2="751.3"
+   y2="195.7"
+   id="line222" />
+<polygon
+   points="751.3,192 753.8,197 751.3,195.7 748.8,197 "
+   id="polygon224" />
+<polygon
+   class="st0"
+   points="751.3,192 753.8,197 751.3,195.7 748.8,197 "
+   id="polygon226" />
+<polygon
+   class="st5"
+   points="708.1,270.3 722.5,227.1 794.5,227.1 780.1,270.3 "
+   id="polygon228" />
+<polygon
+   class="st6"
+   points="708.1,270.3 722.5,227.1 794.5,227.1 780.1,270.3 "
+   id="polygon230" />
+<text
+   class="st7 st4"
+   id="text232"
+   x="729.95288"
+   y="244.92155"><tspan
+     sodipodi:role="line"
+     id="tspan26214"
+     x="729.95288"
+     y="244.92155">IMAGE</tspan></text>
+<polyline
+   class="st1"
+   points="837.7,128.5 837.7,112 981.6,112 981.6,128.5 "
+   id="polyline234" />
+<polyline
+   class="st0"
+   points="837.7,128.5 837.7,112 981.6,112 981.6,128.5 "
+   id="polyline236"
+   transform="matrix(1.1204416,0,0,1.4360678,-100.8129,-55.985394)" />
+<polyline
+   class="st0"
+   points="837.7,128.5 837.7,255.9 981.6,255.9 981.6,128.5 "
+   id="polyline238"
+   transform="matrix(1.1211822,0,0,0.99976507,-101.48661,0.04519488)" />
+<line
+   class="st0"
+   x1="837.70001"
+   y1="128.54375"
+   x2="999.09357"
+   y2="128.54375"
+   id="line240" />
+<text
+   class="st13 st4"
+   id="text242"
+   x="883.29681"
+   y="120.93157">Segmentation</text>
+<rect
+   x="844.9"
+   y="205.5"
+   class="st1"
+   width="129.6"
+   height="28.8"
+   id="rect244" />
+<rect
+   x="844.91333"
+   y="205.4897"
+   class="st2"
+   width="144.70255"
+   height="28.783434"
+   id="rect246" />
+<text
+   class="st7 st4"
+   id="text248"
+   x="888.11432"
+   y="225.02533">Metrics</text>
+<polygon
+   class="st1"
+   points="870.1,162.4 884.5,140.8 949.2,140.8 934.8,162.4 "
+   id="polygon250" />
+
+<text
+   class="st7 st4"
+   id="text254"
+   x="888.66229"
+   y="154.51007">Foreground</text>
+<polygon
+   class="st1"
+   points="870.1,194.8 884.5,173.2 949.2,173.2 934.8,194.8 "
+   id="polygon256" />
+
+<text
+   class="st7 st4"
+   id="text260"
+   x="887.94159"
+   y="186.90167">Background</text>
+<path
+   class="st1"
+   d="M590,279.2h73.4c0.4,0,0.8,0,1.3,0.1c0.4,0.1,0.8,0.2,1.2,0.4c0.4,0.2,0.8,0.4,1.1,0.6c0.4,0.2,0.7,0.5,1,0.8  c0.3,0.3,0.6,0.6,0.8,1c0.2,0.4,0.4,0.7,0.6,1.1c0.2,0.4,0.3,0.8,0.4,1.2c0.1,0.4,0.1,0.8,0.1,1.3v30.2c0,0.4,0,0.8-0.1,1.3  c-0.1,0.4-0.2,0.8-0.4,1.2c-0.2,0.4-0.4,0.8-0.6,1.1c-0.2,0.4-0.5,0.7-0.8,1c-0.3,0.3-0.6,0.6-1,0.8c-0.4,0.2-0.7,0.4-1.1,0.6  c-0.4,0.2-0.8,0.3-1.2,0.4c-0.4,0.1-0.8,0.1-1.3,0.1H590c-0.4,0-0.8,0-1.3-0.1c-0.4-0.1-0.8-0.2-1.2-0.4c-0.4-0.2-0.8-0.4-1.1-0.6  c-0.4-0.2-0.7-0.5-1-0.8c-0.3-0.3-0.6-0.6-0.8-1c-0.2-0.4-0.4-0.7-0.6-1.1c-0.2-0.4-0.3-0.8-0.4-1.2c-0.1-0.4-0.1-0.8-0.1-1.3v-30.2  c0-0.4,0-0.8,0.1-1.3c0.1-0.4,0.2-0.8,0.4-1.2c0.2-0.4,0.4-0.8,0.6-1.1c0.2-0.4,0.5-0.7,0.8-1c0.3-0.3,0.6-0.6,1-0.8  c0.4-0.2,0.7-0.4,1.1-0.6s0.8-0.3,1.2-0.4C589.2,279.2,589.6,279.2,590,279.2z"
+   id="path262" />
+<text
+   xml:space="preserve"
+   style="font-size:16px;line-height:1.25;font-family:sans-serif"
+   x="730.45282"
+   y="261.27466"
+   id="text28480"><tspan
+     sodipodi:role="line"
+     id="tspan28478"
+     x="730.45282"
+     y="261.27466">&amp; GT</tspan></text></svg>

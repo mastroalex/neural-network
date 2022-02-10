@@ -1,0 +1,36 @@
+\frametitle{Application}
+\begin{figure}
+		\begin{minipage}{0.69\linewidth}
+	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
+for l = 1:length(f_test)
+	testImage=imread([strcat(dataPath,'/FRAME_TEST_SEG/'),f_test(l).name]);
+	C_test = semanticseg(testImage,net);
+	D=C_test=='B';
+	GTImage=imread([strcat(dataPath,'/GT_TEST/'),gt_train(l).name]);
+	[TP,FP,FN,CR,CM,FM_test(l)]=evaluation_segmentation(...
+	bwareafilt(D,1),GTImage);
+	imshowpair(testImage,bwareafilt(D,1),'montage');
+	pause(0.5); drawnow;
+	clear C_test D testImage;
+end
+\end{lstlisting}}
+		\end{minipage}\hfill
+	\begin{minipage}{0.3\linewidth}
+			\fontsize{3}{4}\selectfont{\def\svgwidth{0.8\linewidth}
+			\input{FM_first.pdf_tex}}
+	\end{minipage}
+\centering
+\tiny{n. 25:}\\
+\begin{minipage}{0.25\linewidth}
+	\includegraphics[width=\linewidth]{n25.png}
+\end{minipage}\hfill
+\begin{minipage}{0.25\linewidth}
+	\includegraphics[width=\linewidth]{n25_GT.png}
+\end{minipage}\hfill
+\begin{minipage}{0.25\linewidth}
+	\includegraphics[width=\linewidth]{n25_seg.png}
+\end{minipage}\hfill
+\begin{minipage}{0.25\linewidth}
+	\includegraphics[width=\linewidth]{GT_vs_SEG.png}
+\end{minipage}\hfill
+	\end{figure}

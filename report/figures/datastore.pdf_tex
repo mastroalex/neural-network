@@ -1,0 +1,67 @@
+%% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'datastore.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{462.75302124bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.33486271)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{datastore.pdf}}%
+    \put(0.49780319,0.13734251){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}files\end{tabular}}}}%
+    \put(0.49845702,0.08773142){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}format\end{tabular}}}}%
+    \put(0.49780319,0.04205951){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}path\end{tabular}}}}%
+    \put(0.49845704,0.00029439){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}folder\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{datastore.pdf}}%
+    \put(0.65275818,0.21948218){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{../frame\_001.tiff}\end{tabular}}}}%
+    \put(0.65415584,0.16740938){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{../frame\_002.tiff}\end{tabular}}}}%
+    \put(0.65522662,0.11652583){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{../frame\_003.tiff}\end{tabular}}}}%
+    \put(0.65427979,0.07282496){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{../frame\_004.tiff}\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

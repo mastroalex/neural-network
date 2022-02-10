@@ -1,7 +1,6 @@
 % My segmentation
 
 %% net training
-% folder FRAME_TRAIN and GT_TRAIN (i nomi sono scelti dall'utente)
 clear all; close all; 
 
 % set current file path 
@@ -42,10 +41,10 @@ options = trainingOptions('sgdm', ...
 [net, info]= trainNetwork(pximds,lgraph,options);
 save('myNet.mat','net','lgraph');
 subfigure(2,1,1);
-plot(1:length(info.TrainingAccuracy),info.TrainingAccuracy)
+plot(1:length(info.TrainingAccuracy),info.TrainingAccuracy,'Color','#0072BD')
 title('Training Accuracy')
 subfigure(2,1,2);
-plot(info.TrainingLoss)
+plot(info.TrainingLoss,'Color','#D95319')
 title('Training Loss')
 accuracy=info.TrainingAccuracy(end);
 loss=info.TrainingLoss(end);
@@ -83,28 +82,23 @@ options_rmsprop = trainingOptions('rmsprop', ...
 [net_rmsprop, info]=trainNetwork(pximds,lgraph,options_rmsprop);
 accuracy_rmsprop=info.TrainingAccuracy(end);
 loss_rmsprop=info.TrainingLoss(end);
-
+disp('rmsprop')
 for l = 1:length(f_test)
-    l
 testImage=imread([strcat(dataPath,'/FRAME_TEST_SEG/'),f_test(l).name]);
-C_test = semanticseg(testImage,net);
+C_test = semanticseg(testImage,net_rmsprop);
 D=C_test=='B';
 GTImage=imread([strcat(dataPath,'/GT_TEST/'),gt_train(l).name]);
-[TP,FP,FN,CR,CM,FM_test(l)]=evaluation_segmentation(bwareafilt(D,1),GTImage);
-% imwrite(D,['FRAME_TEST_SEG_NEW\',f_test(l).name(1:end-5),'_seg.tiff']);
-imshowpair(testImage,bwareafilt(D,1),'montage');
-pause(0.5); drawnow;
+[TP,FP,FN,CR,CM,FM_test_rmsprop(l)]=evaluation_segmentation(bwareafilt(D,1),GTImage);
 clear C_test D testImage;
 end
 figure;
-plot(FM_test);
+plot(FM_test_rmsprop);
 ylim([0 1]); title('FM')
-line([0 length(FM_test)],[mean(FM_test) mean(FM_test)],'Color','red','LineStyle','--');
-FM_test_rmsprop=FM_test;
-med_rmsprop=mean(FM_test)
-best_rmsprop=max(FM_test)
-worst_rmsprop=min(FM_test)
-sigma_rmsprop=std(FM_test)
+line([0 length(FM_test_rmsprop)],[mean(FM_test_rmsprop) mean(FM_test_rmsprop)],'Color','red','LineStyle','--');
+med_rmsprop=mean(FM_test_rmsprop)
+best_rmsprop=max(FM_test_rmsprop)
+worst_rmsprop=min(FM_test_rmsprop)
+sigma_rmsprop=std(FM_test_rmsprop)
 
 options_adam = trainingOptions('adam', ...
     'MaxEpochs',30, ...  
@@ -113,37 +107,32 @@ options_adam = trainingOptions('adam', ...
 [net_adam, info]=trainNetwork(pximds,lgraph,options_adam);
 accuracy_adam=info.TrainingAccuracy(end);
 loss_adam=info.TrainingLoss(end);
-
+disp('adam')
 for l = 1:length(f_test)
-    l
 testImage=imread([strcat(dataPath,'/FRAME_TEST_SEG/'),f_test(l).name]);
-C_test = semanticseg(testImage,net);
+C_test = semanticseg(testImage,net_adam);
 D=C_test=='B';
 GTImage=imread([strcat(dataPath,'/GT_TEST/'),gt_train(l).name]);
-[TP,FP,FN,CR,CM,FM_test(l)]=evaluation_segmentation(bwareafilt(D,1),GTImage);
-% imwrite(D,['FRAME_TEST_SEG_NEW\',f_test(l).name(1:end-5),'_seg.tiff']);
-imshowpair(testImage,bwareafilt(D,1),'montage');
-pause(0.5); drawnow;
+[TP,FP,FN,CR,CM,FM_test_adam(l)]=evaluation_segmentation(bwareafilt(D,1),GTImage);
 clear C_test D testImage;
 end
 figure;
-plot(FM_test);
+plot(FM_test_adam);
 ylim([0 1]); title('FM')
-line([0 length(FM_test)],[mean(FM_test) mean(FM_test)],'Color','red','LineStyle','--');
-FM_test_adam=FM_test;
-med_adam=mean(FM_test)
-best_adam=max(FM_test)
-worst_adam=min(FM_test)
-sigma_adam=std(FM_test)
+line([0 length(FM_test_adam)],[mean(FM_test_adam) mean(FM_test_adam)],'Color','red','LineStyle','--');
+med_adam=mean(FM_test_adam)
+best_adam=max(FM_test_adam)
+worst_adam=min(FM_test_adam)
+sigma_adam=std(FM_test_adam)
 
 figure;
-plot(FM_test_sgdm,'r');
+plot(FM_test_sgdm,'Color','#0072BD');
 hold on
-plot(FM_test_adam,'g');
-plot(FM_test_rmsprop,'b');
-line([0 length(FM_test_sgdm)],[mean(FM_test_sgdm) mean(FM_test_sgdm)],'Color','red','LineStyle','--');
-line([0 length(FM_test_adam)],[mean(FM_test_adam) mean(FM_test_adam)],'Color','green','LineStyle','--');
-line([0 length(FM_test_rmsprop)],[mean(FM_test_rmsprop) mean(FM_test_rmsprop)],'Color','blue','LineStyle','--');
+plot(FM_test_adam,'Color','#D95319');
+plot(FM_test_rmsprop,'Color','#77AC30');
+line([0 length(FM_test_sgdm)],[mean(FM_test_sgdm) mean(FM_test_sgdm)],'Color','#0072BD','LineStyle','--');
+line([0 length(FM_test_adam)],[mean(FM_test_adam) mean(FM_test_adam)],'Color','#D95319','LineStyle','--');
+line([0 length(FM_test_rmsprop)],[mean(FM_test_rmsprop) mean(FM_test_rmsprop)],'Color','#77AC30','LineStyle','--');
 hold off
 legend({'sdgm','adam','rmsprop',string(mean(FM_test_sgdm)),string(mean(FM_test_adam)),string(mean(FM_test_rmsprop))})
 
@@ -162,7 +151,7 @@ loss_epoc(i)=info.TrainingLoss(end);
 
 for l = 1:length(f_test)
 testImage=imread([strcat(dataPath,'/FRAME_TEST_SEG/'),f_test(l).name]);
-C_test = semanticseg(testImage,net);
+C_test = semanticseg(testImage,net_epoc);
 D=C_test=='B';
 GTImage=imread([strcat(dataPath,'/GT_TEST/'),gt_train(l).name]);
 [TP,FP,FN,CR,CM,FM_test(l)]=evaluation_segmentation(bwareafilt(D,1),GTImage);
@@ -171,7 +160,43 @@ end
 FM_test_epoc(i,:)=FM_test;
 end
 
+figure;plot(FM_test_epoc')
+legend(strcat('n. of epoch:'," ",string(epoc)))
+ylabel('FM')
+xlabel('tested img')
+figure;boxplot(FM_test_epoc',epoc,'Notch','off')
+xlabel('n of epochs')
+ylabel('FM')
 
-% X boxplot usare figure;boxplot([FM_test', FM_test_adam', FM_test_rmsprop', FM_test_sgdm'])
+%% Batch size
 
+batchi=[2 4 8 15 20 30];
+for i=1:length(batchi)
+   disp(strcat('batch size:'," ",string(batchi(i))));
+    options = trainingOptions('sgdm', ...
+    'MaxEpochs',20, ...  
+    'MiniBatchSize',batchi(i), ...
+    'Plots','training-progress');
+[net_batch, info]= trainNetwork(pximds,lgraph,options);
+accuracy_batch(i)=info.TrainingAccuracy(end);
+loss_batch(i)=info.TrainingLoss(end);
+
+for l = 1:length(f_test)
+testImage=imread([strcat(dataPath,'/FRAME_TEST_SEG/'),f_test(l).name]);
+C_test = semanticseg(testImage,net_batch);
+D=C_test=='B';
+GTImage=imread([strcat(dataPath,'/GT_TEST/'),gt_train(l).name]);
+[TP,FP,FN,CR,CM,FM_test(l)]=evaluation_segmentation(bwareafilt(D,1),GTImage);
+clear C_test D testImage;
+end
+FM_test_batch(i,:)=FM_test;
+end
+
+figure;plot(FM_test_batch')
+legend(strcat('n. of epoch:'," ",string(batchi)))
+ylabel('FM')
+xlabel('tested img')
+figure;boxplot(FM_test_batch',batchi,'Notch','off')
+xlabel('batch size')
+ylabel('FM')
 

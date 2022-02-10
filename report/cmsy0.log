@@ -1,0 +1,498 @@
+This is METAFONT, Version 2.71828182 (preloaded base=mf 2021.10.7)  9 FEB 2022 20:46
+**\mode:=ljfour; mag:=1; ; nonstopmode; input cmsy0
+
+(/Users/alessandromastrofini/Library/texlive/2021/texmf-var/fonts/source/public
+/sauter/cmsy0.mf
+(/usr/local/texlive/2021/texmf-dist/fonts/source/public/sauter/b-cmsy.mf
+(/usr/local/texlive/2021/texmf-dist/fonts/source/public/cm/cmbase.mf)
+(/usr/local/texlive/2021/texmf-dist/fonts/source/public/sauter/c-cmmi.mf
+(/usr/local/texlive/2021/texmf-dist/fonts/source/public/sauter/c-cmr.mf))
+>> 5
+! Division by zero.
+<to be read again> 
+                   )
+l.14     (if design_size <   7.5: (5/design_size)
+                                                 
+You're trying to divide the quantity shown above the error
+message by zero. I'm going to divide it by one instead.
+
+(/usr/local/texlive/2021/texmf-dist/fonts/source/public/sauter/c-sigma.mf)
+(/usr/local/texlive/2021/texmf-dist/fonts/source/public/cm/mathsy.mf
+(/usr/local/texlive/2021/texmf-dist/fonts/source/public/cm/calu.mf [65]
+[66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76]
+> 1 WSW 2 (WNW NNW) NNE 3 (ENE) ESE 4 ENE 1 (NNE NNW WNW)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+erase->...fault_wt_:=_;cullit;(TEXT0)withweight._;
+                                                  cullit;endgroup
+<to be read again> 
+                   ;
+l.198 ...--(x9,y30+.5h)--subpath(1,2) of p--cycle;
+                                                  
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[77] [78] [79] [80] [81] [82] [83] [84] [85]
+> 1 ENE 2 (ESE SSE) SSW 3 WSW 4 SSW WSW WNW NNW 5 (WNW) WSW 1 (SSW SSE ESE)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+erase->...fault_wt_:=_;cullit;(TEXT0)withweight._;
+                                                  cullit;endgroup
+<to be read again> 
+                   ;
+l.326 ...4,y0-.5h)--(x4+eps,y4)--reverse p--cycle;
+                                                  
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[86]
+> 1 ENE 2 (ESE SSE) SSW 3 (WSW) WNW 4 5 WSW 1 (SSW SSE ESE)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+erase->...fault_wt_:=_;cullit;(TEXT0)withweight._;
+                                                  cullit;endgroup
+<to be read again> 
+                   ;
+l.343 ...,y0-.5h)--(x5,y0-.5h)--z5..z4..z3--cycle;
+                                                  
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+> 1 ENE 2 (ESE SSE) SSW 3 WSW 4 SSW WSW WNW NNW NNE 5 (NNW WNW) WSW 1 (SSW SSE 
+ESE)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+erase->...fault_wt_:=_;cullit;(TEXT0)withweight._;
+                                                  cullit;endgroup
+<to be read again> 
+                   ;
+l.350  --reverse p--cycle;
+                          
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[87] [88]
+> 0 SSW WSW WNW 1 (WSW SSW SSE ESE) ENE 2 (ESE SSE) SSW 3 WSW 0
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+erase->...fault_wt_:=_;cullit;(TEXT0)withweight._;
+                                                  cullit;endgroup
+<to be read again> 
+                   ;
+l.380 ...h(2,1) of p--(x5,y4)--(x5+eps,y5)--cycle;
+                                                  
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[89] [90]) (/usr/local/texlive/2021/texmf-dist/fonts/source/public/cm/symbol.mf
+(/usr/local/texlive/2021/texmf-dist/fonts/source/public/cm/sym.mf [0] [6]
+[8] [10] [91] [92] [94] [95] [35] [34] [32] [33] [36] [26] [27] [50] [56]
+[57] [58] [20] [21] [17] [110] [106] [1] [5] [102] [103]
+>> x3r
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+---->..
+       tension.infinity..
+<for(l)> ......z2(SUFFIX0){right}...z3(SUFFIX0)---
+                                                  z4(SUFFIX0)...z5(SUFFIX0){...
+
+stroke->...rsuffixes.e=l,r:path_.e:=(TEXT2);endfor
+                                                  .if.cycle.path_.l:errmessa...
+<to be read again> 
+                   ;
+l.441 ...t}...{-dir phi}z8e...{left}z9e...z1e{up};
+                                                   % bowls
+I need a `known' x value for this part of the path.
+The value I found (see above) was no good;
+so I'll try to keep going by using zero instead.
+(Chapter 27 of The METAFONTbook explains that
+you might want to type `I ???' now.)
+
+>> -x3r+20
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+...->..
+       tension.atleast1..
+<for(l)> ...{right}...z3(SUFFIX0)---z4(SUFFIX0)...
+                                                  z5(SUFFIX0){right}...z6(SU...
+
+stroke->...rsuffixes.e=l,r:path_.e:=(TEXT2);endfor
+                                                  .if.cycle.path_.l:errmessa...
+<to be read again> 
+                   ;
+l.441 ...t}...{-dir phi}z8e...{left}z9e...z1e{up};
+                                                   % bowls
+I need a `known' x value for this part of the path.
+The value I found (see above) was no good;
+so I'll try to keep going by using zero instead.
+(Chapter 27 of The METAFONTbook explains that
+you might want to type `I ???' now.)
+
+>> x3r
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+---->..
+       tension.infinity..
+<for(r)> ......z2(SUFFIX0){right}...z3(SUFFIX0)---
+                                                  z4(SUFFIX0)...z5(SUFFIX0){...
+
+stroke->...rsuffixes.e=l,r:path_.e:=(TEXT2);endfor
+                                                  .if.cycle.path_.l:errmessa...
+<to be read again> 
+                   ;
+l.441 ...t}...{-dir phi}z8e...{left}z9e...z1e{up};
+                                                   % bowls
+I need a `known' x value for this part of the path.
+The value I found (see above) was no good;
+so I'll try to keep going by using zero instead.
+(Chapter 27 of The METAFONTbook explains that
+you might want to type `I ???' now.)
+
+>> -x3r+20
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+...->..
+       tension.atleast1..
+<for(r)> ...{right}...z3(SUFFIX0)---z4(SUFFIX0)...
+                                                  z5(SUFFIX0){right}...z6(SU...
+
+stroke->...rsuffixes.e=l,r:path_.e:=(TEXT2);endfor
+                                                  .if.cycle.path_.l:errmessa...
+<to be read again> 
+                   ;
+l.441 ...t}...{-dir phi}z8e...{left}z9e...z1e{up};
+                                                   % bowls
+I need a `known' x value for this part of the path.
+The value I found (see above) was no good;
+so I'll try to keep going by using zero instead.
+(Chapter 27 of The METAFONTbook explains that
+you might want to type `I ???' now.)
+
+[49]
+> 0 NNE 1 (NNW) WNW 2 3 (NNW NNE) ENE 4 ESE 5 0 (ENE)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.458 ...ion atleast 1 and atleast .8..{z5-z4}z5e;
+                                                    % upper stem
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+> 0 ENE 1 (NNE NNW) WNW 2 3 (NNW) NNE 4 (ENE) ESE 5 0
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.460  ..{(z6e-z5'e)xscaled 1.1}z6e...{left}z7e;
+                                                  % lower stem
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[115]) [2]
+! angle(0,0) is taken as zero.
+<for(-90)> ...ic.theta;theta=angle(z[(EXPR0)]-z0);
+                                                  fill.z0+0.5(0,-thin_join)r...
+l.45 ...5(0,thin_join)rotated theta--cycle; endfor
+                                                    % diagonal at angle |d|
+The `angle' between two identical points is undefined.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+! angle(0,0) is taken as zero.
+<for(90)> ...ric.theta;theta=angle(z[(EXPR0)]-z0);
+                                                  fill.z0+0.5(0,-thin_join)r...
+l.45 ...5(0,thin_join)rotated theta--cycle; endfor
+                                                    % diagonal at angle |d|
+The `angle' between two identical points is undefined.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+[3] [4] [7] [9] [11] [12] [13] [14] [15] [16] [18] [19] [22] [23] [24] [25]
+[28] [29] [30] [31] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46]
+>> x3r
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+---->..
+       tension.infinity..
+<for(l)> ......z2(SUFFIX0){right}...z3(SUFFIX0)---
+                                                  z4(SUFFIX0)...z5(SUFFIX0){...
+
+stroke->...rsuffixes.e=l,r:path_.e:=(TEXT2);endfor
+                                                  .if.cycle.path_.l:errmessa...
+<to be read again> 
+                   ;
+l.473 ...t}...{-dir phi}z8e...{left}z9e...z1e{up};
+                                                   % `infinity' bowls
+I need a `known' x value for this part of the path.
+The value I found (see above) was no good;
+so I'll try to keep going by using zero instead.
+(Chapter 27 of The METAFONTbook explains that
+you might want to type `I ???' now.)
+
+>> -x3r+18
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+...->..
+       tension.atleast1..
+<for(l)> ...{right}...z3(SUFFIX0)---z4(SUFFIX0)...
+                                                  z5(SUFFIX0){right}...z6(SU...
+
+stroke->...rsuffixes.e=l,r:path_.e:=(TEXT2);endfor
+                                                  .if.cycle.path_.l:errmessa...
+<to be read again> 
+                   ;
+l.473 ...t}...{-dir phi}z8e...{left}z9e...z1e{up};
+                                                   % `infinity' bowls
+I need a `known' x value for this part of the path.
+The value I found (see above) was no good;
+so I'll try to keep going by using zero instead.
+(Chapter 27 of The METAFONTbook explains that
+you might want to type `I ???' now.)
+
+>> x3r
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+---->..
+       tension.infinity..
+<for(r)> ......z2(SUFFIX0){right}...z3(SUFFIX0)---
+                                                  z4(SUFFIX0)...z5(SUFFIX0){...
+
+stroke->...rsuffixes.e=l,r:path_.e:=(TEXT2);endfor
+                                                  .if.cycle.path_.l:errmessa...
+<to be read again> 
+                   ;
+l.473 ...t}...{-dir phi}z8e...{left}z9e...z1e{up};
+                                                   % `infinity' bowls
+I need a `known' x value for this part of the path.
+The value I found (see above) was no good;
+so I'll try to keep going by using zero instead.
+(Chapter 27 of The METAFONTbook explains that
+you might want to type `I ???' now.)
+
+>> -x3r+18
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+...->..
+       tension.atleast1..
+<for(r)> ...{right}...z3(SUFFIX0)---z4(SUFFIX0)...
+                                                  z5(SUFFIX0){right}...z6(SU...
+
+stroke->...rsuffixes.e=l,r:path_.e:=(TEXT2);endfor
+                                                  .if.cycle.path_.l:errmessa...
+<to be read again> 
+                   ;
+l.473 ...t}...{-dir phi}z8e...{left}z9e...z1e{up};
+                                                   % `infinity' bowls
+I need a `known' x value for this part of the path.
+The value I found (see above) was no good;
+so I'll try to keep going by using zero instead.
+(Chapter 27 of The METAFONTbook explains that
+you might want to type `I ???' now.)
+
+[47] [48] [51] [52] [53] [54] [55] [59]
+! Inconsistent equation (off by 0.359).
+<to be read again> 
+                   ;
+l.565 z11-z10=whatever*(z13-z12) rotated 90;
+                                            
+The equation I just read contradicts what was said before.
+But don't worry; continue and I'll just ignore it.
+
+>> y11r+0.00035
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ;
+<for(l)> ...0)(8,9)...z10(SUFFIX0)---z11(SUFFIX0);
+                                                   ENDFOR
+stroke->...rsuffixes.e=l,r:path_.e:=(TEXT2);endfor
+                                                  .if.cycle.path_.l:errmessa...
+<to be read again> 
+                   ;
+l.568  ...z10e---z11e;
+                        % flourish and left stem
+I need a `known' y value for this part of the path.
+The value I found (see above) was no good;
+so I'll try to keep going by using zero instead.
+(Chapter 27 of The METAFONTbook explains that
+you might want to type `I ???' now.)
+
+>> y11r
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ;
+<for(r)> ...0)(8,9)...z10(SUFFIX0)---z11(SUFFIX0);
+                                                   ENDFOR
+stroke->...rsuffixes.e=l,r:path_.e:=(TEXT2);endfor
+                                                  .if.cycle.path_.l:errmessa...
+<to be read again> 
+                   ;
+l.568  ...z10e---z11e;
+                        % flourish and left stem
+I need a `known' y value for this part of the path.
+The value I found (see above) was no good;
+so I'll try to keep going by using zero instead.
+(Chapter 27 of The METAFONTbook explains that
+you might want to type `I ???' now.)
+
+! The paths don't intersect.
+<to be read again> 
+                   ;
+intersectionpoint->...The paths don't intersect");
+                                                  origin.else:0.5[point.x_.o...
+<to be read again> 
+                   ;
+l.577 ...ionpoint(z22l--z22l+(h,0) rotated theta);
+                                                  
+This error message was generated by an `errmessage'
+command, so I can't give any explicit help.
+Pretend that you're Miss Marple: Examine all clues,
+and deduce the truth by inspired guesses.
+
+[60] [61] [62] [63] [64] [93] [96] [97] [98] [99] [100] [101] [104] [105]
+[107] [108] [109] [111] [112] [113]
+! Value is too large (14745.59375).
+diag_ratio->...EXPR3)/(EXPR4);cc_=(EXPR5)/(EXPR4);
+                                                  aa_=(EXPR2)*(EXPR2)-bb_*bb...
+l.862 ...tio(2,right_stem,y1-y2,x4r-x1l-apex_corr)
+                                                  ;
+The equation I just processed has given some variable
+a value of 4096 or more. Continue and I'll try to cope
+with that big value; but it might be dangerous.
+(Set warningcheck:=0 to suppress this message.)
+
+! Arithmetic overflow.
+diag_ratio->...EXPR4);aa_=(EXPR2)*(EXPR2)-bb_*bb_;
+                                                  ((EXPR2)*(cc_++sqrt.aa_)-b...
+l.862 ...tio(2,right_stem,y1-y2,x4r-x1l-apex_corr)
+                                                  ;
+Uh, oh. A little while ago one of the quantities that I was
+computing got too large, so I'm afraid your answers will be
+somewhat askew. You'll probably have to adopt different
+tactics next time. But I shall try to carry on anyway.
+
+! Value is too large (-32763.99998).
+diag_ratio->...EXPR4);aa_=(EXPR2)*(EXPR2)-bb_*bb_;
+                                                  ((EXPR2)*(cc_++sqrt.aa_)-b...
+l.862 ...tio(2,right_stem,y1-y2,x4r-x1l-apex_corr)
+                                                  ;
+The equation I just processed has given some variable
+a value of 4096 or more. Continue and I'll try to cope
+with that big value; but it might be dangerous.
+(Set warningcheck:=0 to suppress this message.)
+
+! Square root of -32763.99998 has been replaced by 0.
+diag_ratio->...2)-bb_*bb_;((EXPR2)*(cc_++sqrt.aa_)
+                                                  -bb_*cc_)/aa_.endgroup
+l.862 ...tio(2,right_stem,y1-y2,x4r-x1l-apex_corr)
+                                                  ;
+Since I don't take square roots of negative numbers,
+I'm zeroing this one. Proceed, with fingers crossed.
+
+! Arithmetic overflow.
+diag_ratio->..._;((EXPR2)*(cc_++sqrt.aa_)-bb_*cc_)
+                                                  /aa_.endgroup
+l.862 ...tio(2,right_stem,y1-y2,x4r-x1l-apex_corr)
+                                                  ;
+Uh, oh. A little while ago one of the quantities that I was
+computing got too large, so I'm afraid your answers will be
+somewhat askew. You'll probably have to adopt different
+tactics next time. But I shall try to carry on anyway.
+
+! Value is too large (14564.55556).
+l.867 y5=y6=h-cap_vstem; z5=whatever[z1r,z2r];
+                                               z6=whatever[z3l,z4l];
+The equation I just processed has given some variable
+a value of 4096 or more. Continue and I'll try to cope
+with that big value; but it might be dangerous.
+(Set warningcheck:=0 to suppress this message.)
+
+! Value is too large (14564.55556).
+l.867 y5=y6=h-cap_vstem; z5=whatever[z1r,z2r];
+                                               z6=whatever[z3l,z4l];
+The equation I just processed has given some variable
+a value of 4096 or more. Continue and I'll try to cope
+with that big value; but it might be dangerous.
+(Set warningcheck:=0 to suppress this message.)
+
+! Value is too large (-14548.44444).
+l.867 ...=whatever[z1r,z2r]; z6=whatever[z3l,z4l];
+                                                  
+The equation I just processed has given some variable
+a value of 4096 or more. Continue and I'll try to cope
+with that big value; but it might be dangerous.
+(Set warningcheck:=0 to suppress this message.)
+
+! Value is too large (-14548.44444).
+l.867 ...=whatever[z1r,z2r]; z6=whatever[z3l,z4l];
+                                                  
+The equation I just processed has given some variable
+a value of 4096 or more. Continue and I'll try to cope
+with that big value; but it might be dangerous.
+(Set warningcheck:=0 to suppress this message.)
+
+! Curve out of range.
+<to be read again> 
+                   ;
+l.871 else: unfill z0--z5--z6--cycle;
+                                      fi  % counter
+At least one of the coordinates in the path I'm about to
+digitize was really huge (potentially bigger than 4095).
+So I've cut it back to the maximum size.
+The results will probably be pretty wild.
+
+[114] [116] [117] [118] [119]
+> 0 NNE 1 ENE NNE 2 (NNW WNW) WSW 3 SSW WSW 0 (WNW NNW)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+bulb->...FFIX0)r-x(SUFFIX1)r,0}z(SUFFIX0)r--cycle;
+                                                  path_.r:=z(SUFFIX2)l{0,y(S...
+l.928 bulb(2,1,0)
+                 ; bulb(8,9,10);  % bulbs
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+> 0 SSW 1 WSW SSW 2 (SSE ESE) ENE 3 NNE ENE 0 (ESE SSE)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+bulb->...FFIX0)r-x(SUFFIX1)r,0}z(SUFFIX0)r--cycle;
+                                                  path_.r:=z(SUFFIX2)l{0,y(S...
+l.928 bulb(2,1,0); bulb(8,9,10)
+                               ;  % bulbs
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[120] [121] [122]
+> 0 NNE 1 (NNW WNW) WSW WNW NNW 2 NNE ENE ESE 0 (ENE)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.979 .....z1{left}...z2{down}...{right}z5--cycle;
+                                                    % filled bowl
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[123] [124] [125] [126] [127]) ) ) )
+Font metrics written on cmsy0.tfm.
+Output written on cmsy0.600gf (128 characters, 3788 bytes).

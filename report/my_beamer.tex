@@ -1,0 +1,120 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+\documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
+\usetheme{SimplePlus}
+\setbeamertemplate{footline}[frame number]{}
+
+\usepackage{hyperref}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{siunitx}
+\usepackage{import}
+\usepackage{amsmath}
+%\numberwithin{equation}{section}% numera eq come #section.#formula
+\usepackage{amsthm}
+\usepackage{stmaryrd}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{cancel}
+\usepackage{textcomp}
+\usepackage{subcaption}
+\definecolor{myred}{rgb}{0.545, 0.172, 0.031}
+%\usepackage{cleveref}
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[short title]{Deep learning e segmentazione per la biologia cellulare} % The short title appears at the bottom of every slide, the full title is only on the title page
+\subtitle{Utilizzo del transfer learning per l'identificazione di cellule in microscopia}
+
+\author[Pin-Yen] {Alessandro Mastrofini}
+
+\institute[NTU] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+Elaborazione di Immagini \\
+Università degli Studi di Roma Tor Vergata% Your institution for the title page
+}
+\date{2022} % Date, can be changed to a custom date
+
+\graphicspath{{figures/}} %Setting the graphicspat%h
+\graphicspath{{figures/}} %Setting the graphicspath
+\makeatletter
+\providecommand*{\input@path}{}
+\edef\input@path{{figures/}{}\input@path}% prepend
+\makeatother
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{frame}
+    % Print the title page as the first slide
+    \titlepage
+\end{frame}
+
+%------------------------------------------------
+\section{First Section}
+%------------------------------------------------
+
+\begin{frame}{Image segmentation}
+	\begin{figure}
+	\centering
+\begin{minipage}{0.5\linewidth}
+\begin{itemize}
+	\item Pixel-based
+	\item Edge-based
+	\item Region-based
+	\item Model-based
+	\item \textbf{Supervisioned methods}
+\end{itemize}
+\vspace{0.1\linewidth}
+
+\small{$\operatorname{CM}=\frac{T P}{T P+F N}=\frac{T P}{\text { Total arai in GT }}$}\\
+
+
+\small{$
+\operatorname{CR}=\frac{T P}{T P+F P}=\frac{T P}{\text { Total area in BW }}$}\\
+
+
+\small{$
+\operatorname{FM}=\frac{2 \cdot CM \cdot C R}{C M+C R} \in[0 ; 1]
+$}
+
+\end{minipage}
+\begin{minipage}{0.35\linewidth}
+\tiny{\def\svgwidth{\linewidth}
+ \input{p.pdf_tex}}
+\end{minipage}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Transfer learning}
+	
+	
+\end{frame}
+
+\begin{frame}{Training dataset}
+	
+	
+\end{frame}
+
+\begin{frame}{Classification layer}
+	
+\end{frame}
+
+\begin{frame}{Solver}
+	
+	
+\end{frame}
+
+\begin{frame}{Training options}
+	
+	
+\end{frame}
+
+
+
+
+\end{document}

@@ -1,0 +1,824 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  10 FEB 2022 11:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ojies-template.tex
+(./ojies-template.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-10-18> (./ieeeojies.cls (./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen138
+\@IEEEtrantmpdimenB=\dimen139
+\@IEEEtrantmpdimenC=\dimen140
+\@IEEEtrantmpcountA=\count182
+\@IEEEtrantmpcountB=\count183
+\@IEEEtrantmpcountC=\count184
+\@IEEEtrantmptoksA=\toks16
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
+(c:/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen141
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen142
+\CLASSINFOnormalsizeunitybaselineskip=\dimen143
+\IEEEnormaljot=\dimen144
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen145
+\IEEEquantizedlengthdiff=\dimen146
+\IEEEquantizedtextheightdiff=\dimen147
+\IEEEilabelindentA=\dimen148
+\IEEEilabelindentB=\dimen149
+\IEEEilabelindent=\dimen150
+\IEEEelabelindent=\dimen151
+\IEEEdlabelindent=\dimen152
+\IEEElabelindent=\dimen153
+\IEEEiednormlabelsep=\dimen154
+\IEEEiedmathlabelsep=\dimen155
+\IEEEiedtopsep=\skip47
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@IEEEsubequation=\count189
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count190
+\c@table=\count191
+\@IEEEeqnnumcols=\count192
+\@IEEEeqncolcnt=\count193
+\@IEEEsubeqnnumrollback=\count194
+\@IEEEquantizeheightA=\dimen156
+\@IEEEquantizeheightB=\dimen157
+\@IEEEquantizeheightC=\dimen158
+\@IEEEquantizeprevdepth=\dimen159
+\@IEEEquantizemultiple=\count195
+\@IEEEquantizeboxA=\box50
+\@IEEEtmpitemindent=\dimen160
+\IEEEPARstartletwidth=\dimen161
+\c@IEEEbiography=\count196
+\@IEEEtranrubishbin=\box51
+) (c:/texlive/2021/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(c:/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(c:/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+
+(c:/texlive/2021/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count197
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)){c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+pdfTeX warning: pdflatex.exe (file t1-times.map): cannot open font map file
+
+
+pdfTeX warning: pdflatex.exe (file t1-formata.map): cannot open font map file
+
+
+pdfTeX warning: pdflatex.exe (file t1-giovannistd.map): cannot open font map fi
+le
+\@draftversionrule=\dimen162
+(c:/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(c:/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+Package color Info: Redefining color black on input line 135.
+\figbox=\box52
+\titlewidth=\skip50
+\abstractwidth=\skip51
+\c@addrCtr=\count198
+\abstractbox=\box53
+\indexbox=\box54
+\absht=\dimen163
+\kwdht=\dimen164
+\@tempcntc=\count199
+\titlepgskip=\skip52
+\maketitlebox=\box55
+)
+(c:/texlive/2021/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen165
+))
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen166
+)
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count266
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count267
+\leftroot@=\count268
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count269
+\DOTSCASE@=\count270
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen167
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count271
+\c@MaxMatrixCols=\count272
+\dotsspace@=\muskip16
+\c@parentequation=\count273
+\dspbrk@lvl=\count274
+\tag@help=\toks20
+\row@=\count275
+\column@=\count276
+\maxfields@=\count277
+\andhelp@=\toks21
+\eqnshift@=\dimen168
+\alignsep@=\dimen169
+\tagshift@=\dimen170
+\tagwidth@=\dimen171
+\totwidth@=\dimen172
+\lineht@=\dimen173
+\@envbody=\toks22
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2021/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+
+(c:/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@ALC@unique=\count278
+\c@ALC@line=\count279
+\c@ALC@rem=\count280
+\c@ALC@depth=\count281
+\ALC@tlm=\skip56
+\algorithmicindent=\skip57
+)
+(c:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
+)
+(c:/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count282
+\l__pdf_internal_box=\box58
+)
+(./ojies-template.aux)
+\openout1 = `ojies-template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+-- Lines per column: 56 (exact).
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+.
+(c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+
+LaTeX Font Warning: Font shape `T1/ptm/n/n' undefined
+(Font)              using `T1/ptm/m/n' instead on input line 11.
+
+(c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count283
+\scratchdimen=\dimen176
+\scratchbox=\box59
+\nofMPsegments=\count284
+\nofMParguments=\count285
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count286
+\MPscratchDim=\dimen177
+\MPnumerator=\count287
+\makeMPintoPDFobject=\count288
+\everyMPtoPDFconversion=\toks25
+) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 18
+.
+
+(c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+
+LaTeX Font Warning: Font shape `T1/phv/n/n' undefined
+(Font)              using `T1/phv/m/n' instead on input line 18.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+
+
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Calculating math sizes for size <9.9> on input line 47.
+LaTeX Font Info:    Calculating math sizes for size <6.6> on input line 47.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 47
+.
+
+(c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+
+LaTeX Font Warning: Font shape `T1/pcr/n/n' undefined
+(Font)              using `T1/pcr/m/n' instead on input line 47.
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 51--57
+\T1/ptm/n/n/10 at $[]$
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 74--79
+\T1/ptm/n/n/10 mod-i-fiers: ``zero-field-cooled mag-ne-ti-za-tion.'' Avoid dan-
+
+ []
+
+<logo.png, id=1, 336.384pt x 337.698pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 94.
+(pdftex.def)             Requested size: 46.92004pt x 47.10219pt.
+
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+[] 
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[1
+
+
+ <./logo.png>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+61.
+ (c:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+LaTeX Font Warning: Font shape `TS1/ptm/n/n' undefined
+(Font)              using `TS1/ptm/m/n' instead
+(Font)              for symbol `textregistered' on input line 161.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+\T1/ptm/n/n/10 Schol-arOne\TS1/ptm/m/n/10 ® \T1/ptm/n/n/10 Manuscripts, at:
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 163--164
+[]\T1/ptm/n/n/10 Format your ar-ti-cle for sub-mis-sion by us-ing the
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 163--164
+\T1/ptm/n/n/10 ver-sion), avail-able on the OJ-IES Web site at: 
+ []
+
+
+Overfull \hbox (3.29341pt too wide) in paragraph at lines 165--166
+\T1/ptm/n/n/10 ($[]$).
+ []
+
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 201.
+(pdftex.def)             Requested size: 24.11993pt x 24.21323pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[2]
+Package epstopdf Info: Source file: <fig1.eps>
+(epstopdf)                    date: 2021-12-15 20:23:08
+(epstopdf)                    size: 1482166 bytes
+(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-02-09 20:37:03
+(epstopdf)                    size: 65406 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig1-eps-converted-to.pdf 
+fig1.eps>
+(epstopdf)             \includegraphics on input line 205.
+Package epstopdf Info: Output file is already uptodate.
+<fig1-eps-converted-to.pdf, id=22, 731.73375pt x 555.07375pt>
+File: fig1-eps-converted-to.pdf Graphic file (type pdf)
+<use fig1-eps-converted-to.pdf>
+Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 205.
+(pdftex.def)             Requested size: 237.40784pt x 180.0919pt.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/n/it' undefined
+(Font)              using `T1/ptm/n/n' instead on input line 221.
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 225--226
+[]\T1/ptm/n/n/10 A gen-eral IEEE styleguide is avail-able at $[]$
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 281--282
+[]\T1/ptm/m/n/8 1 erg/(G$\OMS/cmsy/m/n/8 ^^A$\T1/ptm/m/n/8 g) $\OT1/cmr/m/n/8 =
+$ \T1/ptm/m/n/8 1 emu/g $\OMS/cmsy/m/n/8 !$ \T1/ptm/m/n/8 1
+ []
+
+
+Overfull \hbox (14.32645pt too wide) in paragraph at lines 255--315
+[][]
+ []
+
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 332.
+(pdftex.def)             Requested size: 24.11993pt x 24.21323pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[3 <./fig1-eps-converted-to.pdf>]
+Underfull \hbox (badness 2020) in paragraph at lines 333--340
+\T1/ptm/n/n/10 Most charts, graphs, and ta-bles are one col-umn wide
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 370--375
+\T1/ptm/n/n/10 color space. Grayscale im-ages should be sub-mit-ted in
+ []
+
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 436.
+(pdftex.def)             Requested size: 24.11993pt x 24.21323pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 536.
+(pdftex.def)             Requested size: 24.11993pt x 24.21323pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[5]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 5
+39.
+ (c:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+Underfull \hbox (badness 4779) in paragraph at lines 540--545
+\T1/ptm/n/it/10 Contributions to the Trans-ac-tions, Jour-nals, and Let-
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 540--545
+\T1/ptm/n/it/10 ters may be sub-mit-ted elec-tron-i-cally on IEEE's on-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--545
+\T1/ptm/n/it/10 line manuscript sub-mis-sion and peer-review sys-tem,
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 540--545
+\T1/ptm/n/it/10 Schol-arOne\TS1/ptm/n/n/10 ® \T1/ptm/n/it/10 Manuscripts. You c
+an get a list-ing of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--545
+\T1/ptm/n/it/10 the pub-li-ca-tions that par-tic-i-pate in Schol-arOne at
+ []
+
+
+Overfull \hbox (2.73315pt too wide) in paragraph at lines 540--545
+[]$
+ []
+
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 626.
+(pdftex.def)             Requested size: 24.11993pt x 24.21323pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[6]
+Underfull \hbox (badness 2050) in paragraph at lines 663--666
+\T1/ptm/n/it/10 J. K. Au-thor, ``Name of pa-per,'' Ab-brev. Ti-tle of
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 663--666
+\T1/ptm/n/it/10 Pe-ri-od-i-cal, vol. $\OML/cmm/m/it/10 x$\T1/ptm/n/it/10 , no. 
+$\OML/cmm/m/it/10 x$\T1/ptm/n/it/10 , pp. xxx--xxx, Ab-brev.
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 667--670
+\T1/ptm/n/it/10 J.K. Au-thor. (year, month). Ti-tle. pre-sented at ab-
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 704--705
+[]\T1/ptm/n/it/10 J. K. Au-thor, pri-vate com-mu-ni-ca-tion, Ab-brev.
+ []
+
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 720.
+(pdftex.def)             Requested size: 24.11993pt x 24.21323pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[7] (./ojies-template.bbl)
+Package epstopdf Info: Source file: <a1.eps>
+(epstopdf)                    date: 2021-12-15 20:23:08
+(epstopdf)                    size: 233823 bytes
+(epstopdf)             Output file: <a1-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-02-09 20:37:03
+(epstopdf)                    size: 33788 bytes
+(epstopdf)             Command: <repstopdf --outfile=a1-eps-converted-to.pdf a1
+.eps>
+(epstopdf)             \includegraphics on input line 787.
+Package epstopdf Info: Output file is already uptodate.
+<a1-eps-converted-to.pdf, id=53, 72.27pt x 90.3375pt>
+File: a1-eps-converted-to.pdf Graphic file (type pdf)
+<use a1-eps-converted-to.pdf>
+Package pdftex.def Info: a1-eps-converted-to.pdf  used on input line 787.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+Package epstopdf Info: Source file: <a1.eps>
+(epstopdf)                    date: 2021-12-15 20:23:08
+(epstopdf)                    size: 233823 bytes
+(epstopdf)             Output file: <a1-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-02-09 20:37:03
+(epstopdf)                    size: 33788 bytes
+(epstopdf)             Command: <repstopdf --outfile=a1-eps-converted-to.pdf a1
+.eps>
+(epstopdf)             \includegraphics on input line 787.
+Package epstopdf Info: Output file is already uptodate.
+File: a1-eps-converted-to.pdf Graphic file (type pdf)
+<use a1-eps-converted-to.pdf>
+Package pdftex.def Info: a1-eps-converted-to.pdf  used on input line 787.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+Package epstopdf Info: Source file: <a2.eps>
+(epstopdf)                    date: 2021-12-15 20:23:08
+(epstopdf)                    size: 233823 bytes
+(epstopdf)             Output file: <a2-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-02-09 20:37:04
+(epstopdf)                    size: 30248 bytes
+(epstopdf)             Command: <repstopdf --outfile=a2-eps-converted-to.pdf a2
+.eps>
+(epstopdf)             \includegraphics on input line 813.
+Package epstopdf Info: Output file is already uptodate.
+<a2-eps-converted-to.pdf, id=56, 72.27pt x 90.3375pt>
+File: a2-eps-converted-to.pdf Graphic file (type pdf)
+<use a2-eps-converted-to.pdf>
+Package pdftex.def Info: a2-eps-converted-to.pdf  used on input line 813.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+Package epstopdf Info: Source file: <a2.eps>
+(epstopdf)                    date: 2021-12-15 20:23:08
+(epstopdf)                    size: 233823 bytes
+(epstopdf)             Output file: <a2-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-02-09 20:37:04
+(epstopdf)                    size: 30248 bytes
+(epstopdf)             Command: <repstopdf --outfile=a2-eps-converted-to.pdf a2
+.eps>
+(epstopdf)             \includegraphics on input line 813.
+Package epstopdf Info: Output file is already uptodate.
+File: a2-eps-converted-to.pdf Graphic file (type pdf)
+<use a2-eps-converted-to.pdf>
+Package pdftex.def Info: a2-eps-converted-to.pdf  used on input line 813.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 826.
+(pdftex.def)             Requested size: 24.11993pt x 24.21323pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[8 <./a1-eps-converted-to.pdf> <./a2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <a3.eps>
+(epstopdf)                    date: 2021-12-15 20:23:08
+(epstopdf)                    size: 233823 bytes
+(epstopdf)             Output file: <a3-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-02-09 20:37:04
+(epstopdf)                    size: 32855 bytes
+(epstopdf)             Command: <repstopdf --outfile=a3-eps-converted-to.pdf a3
+.eps>
+(epstopdf)             \includegraphics on input line 826.
+Package epstopdf Info: Output file is already uptodate.
+<a3-eps-converted-to.pdf, id=68, 72.27pt x 90.3375pt>
+File: a3-eps-converted-to.pdf Graphic file (type pdf)
+<use a3-eps-converted-to.pdf>
+Package pdftex.def Info: a3-eps-converted-to.pdf  used on input line 826.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+Package epstopdf Info: Source file: <a3.eps>
+(epstopdf)                    date: 2021-12-15 20:23:08
+(epstopdf)                    size: 233823 bytes
+(epstopdf)             Output file: <a3-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-02-09 20:37:04
+(epstopdf)                    size: 32855 bytes
+(epstopdf)             Command: <repstopdf --outfile=a3-eps-converted-to.pdf a3
+.eps>
+(epstopdf)             \includegraphics on input line 826.
+Package epstopdf Info: Output file is already uptodate.
+File: a3-eps-converted-to.pdf Graphic file (type pdf)
+<use a3-eps-converted-to.pdf>
+Package pdftex.def Info: a3-eps-converted-to.pdf  used on input line 826.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 846.
+(pdftex.def)             Requested size: 24.11993pt x 24.21323pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[9
+
+ <./a3-eps-converted-to.pdf>] (./ojies-template.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4331 strings out of 478579
+ 63415 string characters out of 5857457
+ 391239 words of memory out of 5000000
+ 22124 multiletter control sequences out of 15000+600000
+ 509185 words of font info for 167 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,13n,66p,796b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c
+:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+<c:/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/202
+1/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2021/texmf-dist/f
+onts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/
+times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb>
+<c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/t
+exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ojies-template.pdf (9 pages, 427816 bytes).
+PDF statistics:
+ 161 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+

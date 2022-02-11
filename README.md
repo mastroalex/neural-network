@@ -6,4 +6,6 @@ Read more: [Application of Transfer Learning to Biomedical Images](https://aless
 
 [Slide](https://github.com/mastroalex/neural-network/blob/main/report/my_beamer.pdf)
 
+--- 
+
 ![](https://github.com/mastroalex/neural-network/blob/main/report/figures/diagram.svg)

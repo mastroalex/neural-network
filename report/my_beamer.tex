@@ -60,7 +60,7 @@
 %----------------------------------------------------------------------------------------
 
 \title[short title]{Deep learning e segmentazione per la biologia cellulare} % The short title appears at the bottom of every slide, the full title is only on the title page
-\subtitle{Utilizzo del transfer learning per l'identificazione di cellule in microscopia}
+\subtitle{Utilizzo del transfer learning in Matlab per l'identificazione di cellule in microscopia}
 
 \author[Pin-Yen] {Alessandro Mastrofini}
 
@@ -182,7 +182,7 @@ $}
 \end{figure}
 \end{frame}
 
-\begin{frame}[fragile]{Classification layer and training}
+\begin{frame}[fragile]{Classification layer}
 \begin{figure}
 	\begin{minipage}{0.7\linewidth}
 	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
@@ -200,16 +200,41 @@ $}
 	[net, info]= trainNetwork(pximds,lgraph,options);
 \end{lstlisting}}
 \centering
-	\fontsize{3}{4}\selectfont{\def\svgwidth{0.8\linewidth}
-	\input{accuracy.pdf_tex}}\vspace{2 mm}
-	\fontsize{3}{4}\selectfont{\def\svgwidth{0.8\linewidth}
-	\input{loss.pdf_tex}}
+\vspace{5 mm}
+\begin{minipage}{0.6\linewidth}
+		\tiny{\def\svgwidth{\linewidth}
+		\input{class.pdf_tex}}
+\end{minipage}\hfill
+\begin{minipage}{0.4\linewidth}
+	\centering
+	\fontsize{3}{4}\selectfont{$\begin{array}{cccccccccc}\text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } \\ \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } \\ \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } \\ \text { N } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } \\ \text { N } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } \\ \text { N } & \text { N } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } \\ \text { N } & \text { N } & \text { N } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } \\ \text { N } & \text { N } & \text { N } & \text { N } & \text { B } & \text { B } & \text { B } & \text { B } & \text { B } \\ \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { B } & \text { B } & \text { B } & \text { B } \\ \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { B } & \text { B } & \text { B } \\ \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } \\ \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } \\ \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } \\ \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } \\ \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } \\ \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } \\ \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N } & \text { N }\end{array}$}
+\end{minipage}
 	\end{minipage}\hfill
-\begin{minipage}{0.3\linewidth}
-\includegraphics[width=0.95\linewidth]{lastlayers.png}
+\begin{minipage}{0.3\linewidth}\centering
+\includegraphics[width=0.9\linewidth]{lastlayers.png}
 \end{minipage}
 	
 \end{figure}
+\end{frame}
+
+\begin{frame}{Training}
+	\begin{figure}
+		\begin{minipage}{0.8\linewidth}
+			\centering
+			\fontsize{3}{4}\selectfont{\def\svgwidth{\linewidth}
+				\input{accuracy.pdf_tex}}\vspace{5 mm}
+			\fontsize{3}{4}\selectfont{\def\svgwidth{\linewidth}
+				\input{loss.pdf_tex}}
+		\end{minipage}\hfill
+		\begin{minipage}{0.2\linewidth}
+\centering
+\tiny{GPU consuming}
+\vspace{5 mm}
+\hspace{5 mm}\fontsize{3}{4}\selectfont{\def\svgwidth{0.9\linewidth}
+	\input{gpu.pdf_tex}}
+		\end{minipage}
+		
+	\end{figure}
 \end{frame}
 
 \begin{frame}[fragile]{Application}
@@ -320,5 +345,33 @@ end
 	\end{figure}	
 \end{frame}
 
+
+\begin{frame}[fragile]{Pretrained networks}
+	
+	\begin{figure}
+		\centering\hspace{5 mm}
+\begin{minipage}{0.2\linewidth}\centering
+	\tiny{\def\svgwidth{\linewidth}
+	\input{moreNet.pdf_tex}}
+\end{minipage}\hfill
+\begin{minipage}{0.7\linewidth}
+	\centering
+	\tiny{\def\svgwidth{0.85\linewidth}
+	\input{net.pdf_tex}}
+\end{minipage}
+	\begin{minipage}{0.9\linewidth}
+	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
+	clear pximds lgraph
+	[pximds,lgraph]=prepareMyNet(net,'netName',imds,pxds);
+	[net_net,info_net,FM_test_net,compTime_net]=trainAndTest(pximds,lgraph,...
+	dataPath,f_test,gt_train);	
+	[accuracy_net,loss_net,FM_mean_net]=figureAccAndLoss(info_net,FM_test_net)
+	\end{lstlisting}}
+\end{minipage}
+	\end{figure}
+
+	
+	
+\end{frame}
 
 \end{document}

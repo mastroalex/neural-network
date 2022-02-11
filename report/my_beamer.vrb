@@ -1,26 +1,31 @@
-\frametitle{Pretrained networks}
-
-	\begin{figure}
-		\centering\hspace{5 mm}
-\begin{minipage}{0.2\linewidth}\centering
-	\tiny{\def\svgwidth{\linewidth}
-	\input{moreNet.pdf_tex}}
-\end{minipage}\hfill
-\begin{minipage}{0.7\linewidth}
-	\centering
-	\tiny{\def\svgwidth{0.85\linewidth}
-	\input{net.pdf_tex}}
-\end{minipage}
-	\begin{minipage}{0.9\linewidth}
+\frametitle{Training}
+\begin{figure}
+		\begin{minipage}{0.42\linewidth}
+				\fontsize{3}{4}\selectfont{\def\svgwidth{\linewidth}
+				\input{acc.pdf_tex}}
+				\fontsize{3}{4}\selectfont{\def\svgwidth{0.99\linewidth}
+				\input{lox.pdf_tex}}
+		\end{minipage}\hfill
+	\begin{minipage}{0.53\linewidth}
 	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
-	clear pximds lgraph
-	[pximds,lgraph]=prepareMyNet(net,'netName',imds,pxds);
-	[net_net,info_net,FM_test_net,compTime_net]=trainAndTest(pximds,lgraph,...
-	dataPath,f_test,gt_train);	
-	[accuracy_net,loss_net,FM_mean_net]=figureAccAndLoss(info_net,FM_test_net)
+	dsTrain = transform(dsTrain,...
+	@(data)augmentImageAndLabel(data,xT,yT));
 	\end{lstlisting}}
+	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
+	function data = augmentImageAndLabel(data,xT,yT)
+	for i = 1:size(data,1)
+	tform = randomAffine2d('Rotation',[0 360],...
+	'XReflection',true,'XTranslation', xTrans, ...
+	'YTranslation', yTrans);
+	rout = affineOutputView(size(data{i,1}), tform,...
+	'BoundsStyle','centerOutput');
+	data{i,1} = imwarp(data{i,1},tform,'OutputView',rout);
+	data{i,2} = imwarp(data{i,2},tform,'OutputView',rout);
+	end
+	end	
+\end{lstlisting}}
+	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
+	[net, info]= trainNetwork(dsTrain,lgraph,options);
+\end{lstlisting}}
 \end{minipage}
 	\end{figure}
-
-	
-	

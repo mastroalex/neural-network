@@ -369,9 +369,110 @@ end
 	\end{lstlisting}}
 \end{minipage}
 	\end{figure}
+\end{frame}
 
-	
-	
+\begin{frame}[fragile]{Border identification}
+\begin{figure}
+	\begin{minipage}{0.6\linewidth}
+	\fontsize{3}{4}\selectfont{\def\svgwidth{0.95\linewidth}
+	\input{mole.pdf_tex}}
+	\end{minipage}\hfill
+\begin{minipage}{0.4\linewidth}
+		\fontsize{5}{4}\selectfont{$\begin{array}{ccccc}
+			\text { INSIDE } & \text { INSIDE } & \text { BORDER } & \text { BORDER } & \text { BACK } \\ \text { INSIDE } & \text { INSIDE } & \text { BORDER } & \text { BORDER } & \text { BACK } \\ \text { INSIDE } & \text { INSIDE } & \text { BORDER } & \text { BORDER } & \text { BACK } \\ \text { INSIDE } & \text { INSIDE } & \text { BORDER } & \text { BORDER } & \text { BACK } \\ \text { INSIDE } & \text { INSIDE } & \text { BORDER } & \text { BORDER } & \text { BACK } \\ \text { INSIDE } & \text { INSIDE } & \text { BORDER } & \text { BORDER } & \text { BACK } \\ \text { INSIDE } & \text { INSIDE } & \text { BORDER } & \text { BORDER } & \text { BACK } \\ \text { INSIDE } & \text { INSIDE } & \text { BORDER } & \text { BORDER } & \text { BACK } \\ \text { INSIDE } & \text { INSIDE } & \text { BORDER } & \text { BORDER } & \text { BACK } \\ \text { INSIDE } & \text { INSIDE } & \text { BORDER } & \text { BORDER } & \text { BACK } \\ \text { INSIDE } & \text { INSIDE } & \text { BORDER } & \text { BORDER } & \text { BACK } \\ \text { INSIDE } & \text { INSIDE } & \text { BORDER } & \text { BORDER } & \text { BACK } \\ \text { INSIDE } & \text { INSIDE } & \text { BORDER } & \text { BORDER } & \text { BACK }\end{array}$}
+\end{minipage}
+\begin{minipage}{\linewidth}
+		\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
+	pathImage = strcat(newPath,'dataset\mole\Immagini');
+	pathGT=strcat(newPath,'dataset\mole\Segmentazioni');
+	pathExport=strcat(newPath,'dataset\mole\PROCESSED\');
+	[imds,pxds]=optimizeDataset(pathImage,pathGT,pathExport,8,imageSize);
+	%
+	imdsTEST = imageDatastore(strcat(newPath,'dataset\mole\TEST\Immagini')); 
+	\end{lstlisting}}
+\end{minipage}\hfill
+\begin{minipage}{0.1\linewidth}
+	\centering
+\includegraphics[width=\linewidth]{element.pdf}
+\end{minipage}\hfill
+\begin{minipage}{0.2\linewidth}
+	\centering
+	\includegraphics[width=0.9\linewidth]{eroded.pdf}
+\end{minipage}\hfill
+\begin{minipage}{0.55\linewidth}
+	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
+	temp_GT=imread(string(startingGT.Files(i)));
+	temp_INT=imerode(temp_GT,SE);
+	temp_INT=imbinarize(temp_INT); 
+	temp_GT=imbinarize(temp_GT);
+	temp_GT=uint8(temp_GT);
+	temp_INT=uint8(temp_INT);
+	imshowpair(255*temp_GT,255*temp_INT)
+	GT=temp_GT+temp_INT;
+	GT=imresize(GT,imageSize(1:2));
+	pathSplit=strsplit(string(startingGT.Files(i)),'\');
+	imwrite(GT,strcat(pathExport,'GT\',pathSplit(end)))
+\end{lstlisting}}
+\end{minipage}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]{Training}
+	\begin{figure}
+		\begin{minipage}{0.42\linewidth}
+				\fontsize{3}{4}\selectfont{\def\svgwidth{\linewidth}
+				\input{acc.pdf_tex}}
+				\fontsize{3}{4}\selectfont{\def\svgwidth{0.99\linewidth}
+				\input{lox.pdf_tex}}
+		\end{minipage}\hfill
+	\begin{minipage}{0.53\linewidth}
+	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
+	dsTrain = transform(dsTrain,...
+	@(data)augmentImageAndLabel(data,xT,yT));
+	\end{lstlisting}}
+	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
+	function data = augmentImageAndLabel(data,xT,yT)
+	for i = 1:size(data,1)
+	tform = randomAffine2d('Rotation',[0 360],...
+	'XReflection',true,'XTranslation', xTrans, ...
+	'YTranslation', yTrans);
+	rout = affineOutputView(size(data{i,1}), tform,...
+	'BoundsStyle','centerOutput');
+	data{i,1} = imwarp(data{i,1},tform,'OutputView',rout);
+	data{i,2} = imwarp(data{i,2},tform,'OutputView',rout);
+	end
+	end	
+\end{lstlisting}}
+	\tiny{\begin{lstlisting}[language=Matlab,basicstyle=\tiny]
+	[net, info]= trainNetwork(dsTrain,lgraph,options);
+\end{lstlisting}}
+\end{minipage}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Segmentation}
+	\begin{figure}
+		\begin{minipage}{\linewidth}
+			\centering
+\includegraphics[width=0.2\linewidth]{inside.pdf}\hspace{0.08\linewidth}
+\includegraphics[width=0.2\linewidth]{border.pdf}\hspace{0.08\linewidth}
+\includegraphics[width=0.2\linewidth]{back.pdf}
+		\end{minipage}\hfill
+	\vspace{5 mm}
+\begin{minipage}{0.25\linewidth}
+\includegraphics[width=\linewidth]{11.png}\vspace{2 mm}
+\includegraphics[width=\linewidth]{12.png}
+\end{minipage}\hspace{0.05\linewidth}
+\begin{minipage}{0.25\linewidth}
+	\includegraphics[width=\linewidth]{41.png}\vspace{2 mm}
+	\includegraphics[width=\linewidth]{42.png}
+\end{minipage}\hspace{0.05\linewidth}
+\begin{minipage}{0.25\linewidth}
+	\includegraphics[width=\linewidth]{281.png}\vspace{2 mm}
+	\includegraphics[width=\linewidth]{282.png}
+\end{minipage}
+
+	\end{figure}
 \end{frame}
 
 \end{document}

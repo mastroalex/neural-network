@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  11 FEB 2022 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  11 FEB 2022 23:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2122,7 +2122,7 @@ File: figures//net.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures//net.pdf , page3 used on input line 60.
 (pdftex.def)             Requested size: 244.80984pt x 167.01358pt.
 ))
-Overfull \vbox (9.67691pt too high) detected at line 375
+Overfull \vbox (9.67691pt too high) detected at line 372
  []
 
 [11
@@ -2160,6 +2160,145 @@ pdfTeX warning: pdflatex.exe (file ./figures//net.pdf): PDF inclusion: multiple
 pdfTeX warning: pdflatex.exe (file ./figures//net.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >]
+\openout4 = `my_beamer.vrb'.
+
+ (./my_beamer.vrb (./figures//mole.pdf_tex
+<figures//mole.pdf, id=319, page=1, 403.49402pt x 125.41533pt>
+File: figures//mole.pdf Graphic file (type pdf)
+<use figures//mole.pdf, page 1>
+Package pdftex.def Info: figures//mole.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 234.52467pt x 72.89594pt.
+)
+<figures//element.pdf, id=320, 192.72pt x 192.72pt>
+File: figures//element.pdf Graphic file (type pdf)
+<use figures//element.pdf>
+Package pdftex.def Info: figures//element.pdf  used on input line 23.
+(pdftex.def)             Requested size: 41.1469pt x 41.1458pt.
+<figures//eroded.pdf, id=321, 192.72pt x 192.72pt>
+File: figures//eroded.pdf Graphic file (type pdf)
+<use figures//eroded.pdf>
+Package pdftex.def Info: figures//eroded.pdf  used on input line 27.
+(pdftex.def)             Requested size: 74.05827pt x 74.05774pt.
+)
+Overfull \vbox (12.55794pt too high) detected at line 418
+ []
+
+[12
+
+ <./figures//mole.pdf> <./figures//element.pdf> <./figures//eroded.pdf>]
+\openout4 = `my_beamer.vrb'.
+
+
+(./my_beamer.vrb (./figures//acc.pdf_tex
+<figures//acc.pdf, id=367, page=1, 422.04634pt x 238.34615pt>
+File: figures//acc.pdf Graphic file (type pdf)
+<use figures//acc.pdf, page 1>
+Package pdftex.def Info: figures//acc.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 172.80571pt x 97.59161pt.
+<figures//acc.pdf, id=368, page=2, 422.04634pt x 238.34615pt>
+File: figures//acc.pdf Graphic file (type pdf)
+<use figures//acc.pdf, page 2>
+Package pdftex.def Info: figures//acc.pdf , page2 used on input line 67.
+(pdftex.def)             Requested size: 172.80571pt x 97.59161pt.
+<figures//acc.pdf, id=369, page=3, 422.04634pt x 238.34615pt>
+File: figures//acc.pdf Graphic file (type pdf)
+<use figures//acc.pdf, page 3>
+Package pdftex.def Info: figures//acc.pdf , page3 used on input line 78.
+(pdftex.def)             Requested size: 172.80571pt x 97.59161pt.
+) (./figures//lox.pdf_tex
+<figures//lox.pdf, id=370, page=1, 418.78455pt x 193.69531pt>
+File: figures//lox.pdf Graphic file (type pdf)
+<use figures//lox.pdf, page 1>
+Package pdftex.def Info: figures//lox.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 171.0786pt x 79.12593pt.
+<figures//lox.pdf, id=371, page=2, 418.78455pt x 193.69531pt>
+File: figures//lox.pdf Graphic file (type pdf)
+<use figures//lox.pdf, page 2>
+Package pdftex.def Info: figures//lox.pdf , page2 used on input line 66.
+(pdftex.def)             Requested size: 171.0786pt x 79.12593pt.
+<figures//lox.pdf, id=372, page=3, 418.78455pt x 193.69531pt>
+File: figures//lox.pdf Graphic file (type pdf)
+<use figures//lox.pdf, page 3>
+Package pdftex.def Info: figures//lox.pdf , page3 used on input line 76.
+(pdftex.def)             Requested size: 171.0786pt x 79.12593pt.
+)) [13
+
+ <./figures//acc.pdf> <./figures//acc.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//acc.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./figures//acc.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//acc.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./figures//lox.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lox.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./figures//lox.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lox.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./figures//lox.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lox.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>]
+<figures//inside.pdf, id=382, 192.72pt x 192.72pt>
+File: figures//inside.pdf Graphic file (type pdf)
+<use figures//inside.pdf>
+Package pdftex.def Info: figures//inside.pdf  used on input line 476.
+(pdftex.def)             Requested size: 82.28754pt x 82.28572pt.
+<figures//border.pdf, id=383, 192.72pt x 192.72pt>
+File: figures//border.pdf Graphic file (type pdf)
+<use figures//border.pdf>
+Package pdftex.def Info: figures//border.pdf  used on input line 476.
+(pdftex.def)             Requested size: 82.28754pt x 82.28572pt.
+<figures//back.pdf, id=384, 197.18066pt x 192.72pt>
+File: figures//back.pdf Graphic file (type pdf)
+<use figures//back.pdf>
+Package pdftex.def Info: figures//back.pdf  used on input line 476.
+(pdftex.def)             Requested size: 82.28754pt x 80.42427pt.
+<figures//11.png, id=385, 384.6872pt x 191.9672pt>
+File: figures//11.png Graphic file (type png)
+<use figures//11.png>
+Package pdftex.def Info: figures//11.png  used on input line 476.
+(pdftex.def)             Requested size: 102.861pt x 51.328pt.
+<figures//12.png, id=386, 384.6872pt x 191.21437pt>
+File: figures//12.png Graphic file (type png)
+<use figures//12.png>
+Package pdftex.def Info: figures//12.png  used on input line 476.
+(pdftex.def)             Requested size: 102.861pt x 51.12672pt.
+<figures//41.png, id=387, 383.18156pt x 191.21437pt>
+File: figures//41.png Graphic file (type png)
+<use figures//41.png>
+Package pdftex.def Info: figures//41.png  used on input line 476.
+(pdftex.def)             Requested size: 102.861pt x 51.32803pt.
+<figures//42.png, id=388, 385.44pt x 193.47281pt>
+File: figures//42.png Graphic file (type png)
+<use figures//42.png>
+Package pdftex.def Info: figures//42.png  used on input line 476.
+(pdftex.def)             Requested size: 102.861pt x 51.6302pt.
+<figures//281.png, id=389, 382.42876pt x 191.21437pt>
+File: figures//281.png Graphic file (type png)
+<use figures//281.png>
+Package pdftex.def Info: figures//281.png  used on input line 476.
+(pdftex.def)             Requested size: 102.861pt x 51.43016pt.
+<figures//282.png, id=390, 385.44pt x 191.9672pt>
+File: figures//282.png Graphic file (type png)
+<use figures//282.png>
+Package pdftex.def Info: figures//282.png  used on input line 476.
+(pdftex.def)             Requested size: 102.861pt x 51.22841pt.
+
+Overfull \vbox (1.82349pt too high) detected at line 476
+ []
+
+[14
+
+ <./figures//inside.pdf> <./figures//border.pdf> <./figures//back.pdf> <./figur
+es//11.png (PNG copy)> <./figures//12.png (PNG copy)> <./figures//41.png (PNG c
+opy)> <./figures//42.png (PNG copy)> <./figures//281.png (PNG copy)> <./figures
+//282.png (PNG copy)>]
 \tf@nav=\write6
 \openout6 = `my_beamer.nav'.
 
@@ -2181,10 +2320,10 @@ Package rerunfilecheck Info: File `my_beamer.out' has not changed.
 (rerunfilecheck)             Checksum: 65F2C9F0DC09CB7504E7C1CFD3FF7492;111.
  ) 
 Here is how much of TeX's memory you used:
- 29347 strings out of 478579
- 576720 string characters out of 5857457
- 1139859 words of memory out of 5000000
- 46567 multiletter control sequences out of 15000+600000
+ 29575 strings out of 478579
+ 581008 string characters out of 5857457
+ 1157967 words of memory out of 5000000
+ 46766 multiletter control sequences out of 15000+600000
  423369 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,124p,2294b,2155s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2203,10 +2342,10 @@ ts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmtt8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss
 0600.pfb>
-Output written on my_beamer.pdf (11 pages, 796927 bytes).
+Output written on my_beamer.pdf (14 pages, 2052025 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 606 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 696 words of extra memory for PDF output out of 10000 (max. 10000000)
 

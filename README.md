@@ -1,45 +1,11 @@
-# neural-network
+# Application of Transfer Learning to Biomedical Images
  
-## Dataset
+In the digital age, even in medicine, numerous images are produced every day and, despite their classification, the segmentation and recognition of objects are less detailed. With the recent development of artificial intelligence and convolutional neural network algorithms it is possible to achieve excellent results. This article analyzes the neural network differences in Matlab and the ability to recognize cells in light microscopy. The possibility of segmenting the border and internal area is also introduced, extending the algorithm in microscopy to the recognition of moles for dermatoscopy.
 
-`montage(datastore) ` così da mostrare insieme tutte le immagini
+Read more: [Application of Transfer Learning to Biomedical Images](https://alessandromastrofini.it/?p=4549)
 
-`auds = augmentedImageDatastore([224 224],imds)`ridimensiona le immagini per essere accettare dalla rete 
----
-Proprietà del `datastore`:
-
-![](pastedFig/2022-02-06-22-40-34.png)
----
-
-During training, the network learns to associate the training images and labels. The network may have a high training accuracy, but a network is only useful if it can generalize to new images. You should use a separate test data set to evaluate if the network can classify images it has not yet seen.
-
-You can split the data set with splitEachLabel.
-`[ds1,ds2] = splitEachLabel(imds,p)`
-The proportion p (a value from 0 to 1) indicates the proportion of images from each label from imds that are contained in ds1. The remaining files are assigned to ds2.
+[Slide](https://github.com/mastroalex/neural-network/blob/main/report/my_beamer.pdf)
 
 --- 
 
-Algorithm options control how a network is trained. You can create these options with the trainingOptions function.
-
-`opts = trainingOptions(algorithm,..."InitialLearnRate",rate)`
-
-The first input is the name of the training algorithm to use. A common modification from the default options is to decrease the initial learning rate.
-
-There are many other options you can set. To see the possible training algorithms and other options, refer to the documentation.
-
-[trainingOptions](https://it.mathworks.com/help/deeplearning/ref/trainingoptions.html)
-
-Varia i layer:
-
-![](pastedFig/2022-02-06-22-52-14.png)ùù
-
-## Valutazione della rete
-
-![](pastedFig/2022-02-06-22-54-24.png)
-
-`confusionchart(testImgs.Labels,testPreds)`
-
-## References
-
-- https://it.mathworks.com/help/vision/ug/semantic-segmentation-using-deep-learning.html 
-- https://it.mathworks.com/help/deeplearning/ref/resnet50.html;jsessionid=099728639a3522d8e9c3a9a1d977 
+![](https://github.com/mastroalex/neural-network/blob/main/report/figures/diagram.svg)

@@ -30,51 +30,56 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: bibliography/IEEEabrv.bib
-Database file #2: bibliography/mybibfile.bib
+Database file #1: bibliography/mybibfile.bib
+You're missing a field part---line 6 of file bibliography/mybibfile.bib
+ :  month         = 
+ :                  ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "b3"
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 29 entries,
+You've used 1 entry,
             7057 wiz_defined-function locations,
-            2199 strings with 34014 characters,
-and the built_in function-call counts, 21262 in all, are:
-= -- 2311
-> -- 412
-< -- 95
-+ -- 216
-- -- 82
-* -- 876
-:= -- 2964
-add.period$ -- 63
-call.type$ -- 29
-change.case$ -- 124
-chr.to.int$ -- 198
-cite$ -- 29
-duplicate$ -- 1511
-empty$ -- 1685
-format.name$ -- 98
-if$ -- 5084
+            1658 strings with 22961 characters,
+and the built_in function-call counts, 414 in all, are:
+= -- 21
+> -- 4
+< -- 0
++ -- 2
+- -- 1
+* -- 25
+:= -- 87
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 1
+duplicate$ -- 26
+empty$ -- 34
+format.name$ -- 1
+if$ -- 68
 int.to.chr$ -- 0
-int.to.str$ -- 29
-missing$ -- 296
-newline$ -- 120
-num.names$ -- 31
-pop$ -- 711
+int.to.str$ -- 1
+missing$ -- 7
+newline$ -- 28
+num.names$ -- 1
+pop$ -- 24
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2292
+skip$ -- 23
 stack$ -- 0
-substring$ -- 478
-swap$ -- 1063
-text.length$ -- 29
+substring$ -- 0
+swap$ -- 13
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 29
+type$ -- 1
 warning$ -- 0
-while$ -- 62
-width$ -- 31
-write$ -- 306
+while$ -- 1
+width$ -- 2
+write$ -- 31
+(There was 1 error message)

@@ -1,2 +1,1 @@
-# Code 
-
+https://alessandromastrofini.it/deep-learning-segmentazione/

@@ -1,2 +1,2 @@
-report/* linguist-vendored=true
-report/**/* linguist-vendored=true
+report/* linguist-vendored
+report/**/* linguist-vendored
